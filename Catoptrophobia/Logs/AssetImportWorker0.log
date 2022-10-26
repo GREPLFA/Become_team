@@ -134,6 +134,7 @@ Received Import Request.
   path: Assets/Scenes/2F.unity
   artifactKey: Guid(4cdabafcd5f9a684abe9c7e2670766e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/2F.unity using Guid(4cdabafcd5f9a684abe9c7e2670766e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a109bfb9505349ad1207b13960c1085f') in 0.007380 seconds 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 4.294187 seconds.
@@ -259,3 +260,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 4.294187 seconds.
+  path: Assets/Scenes/NewBehaviourScript.cs
+  artifactKey: Guid(cb28b15c4a8b7264e9bd6b1abd97af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBehaviourScript.cs using Guid(cb28b15c4a8b7264e9bd6b1abd97af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7baea0634a6d979d7a66f8db7ad5ae') in 0.023930 seconds 
+>>>>>>> main
