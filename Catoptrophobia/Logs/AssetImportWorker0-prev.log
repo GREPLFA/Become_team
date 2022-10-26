@@ -135,12 +135,16 @@ Received Import Request.
   artifactKey: Guid(4cdabafcd5f9a684abe9c7e2670766e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/2F.unity using Guid(4cdabafcd5f9a684abe9c7e2670766e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a109bfb9505349ad1207b13960c1085f') in 0.007380 seconds 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 ========================================================================
 Received Import Request.
   Time since last request: 4.294187 seconds.
   path: Assets/Scenes/NewBehaviourScript.cs
   artifactKey: Guid(cb28b15c4a8b7264e9bd6b1abd97af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/NewBehaviourScript.cs using Guid(cb28b15c4a8b7264e9bd6b1abd97af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7baea0634a6d979d7a66f8db7ad5ae') in 0.023930 seconds 
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
@@ -267,4 +271,6 @@ Received Import Request.
   path: Assets/Scenes/NewBehaviourScript.cs
   artifactKey: Guid(cb28b15c4a8b7264e9bd6b1abd97af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/NewBehaviourScript.cs using Guid(cb28b15c4a8b7264e9bd6b1abd97af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7baea0634a6d979d7a66f8db7ad5ae') in 0.023930 seconds 
+>>>>>>> main
+=======
 >>>>>>> main
