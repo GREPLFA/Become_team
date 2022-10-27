@@ -15,11 +15,11 @@ C:/Users/BIOIT/Documents/B_team_git/B_team/Catoptrophobia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64722
+60336
 Successfully changed project path to: C:/Users/BIOIT/Documents/B_team_git/B_team/Catoptrophobia
 C:/Users/BIOIT/Documents/B_team_git/B_team/Catoptrophobia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001584 seconds.
+Registered in 0.001441 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.434 seconds
+- Completed reload, in  0.443 seconds
 Domain Reload Profiling:
-	ReloadAssembly (435ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (443ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (332ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (334ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
 			SetupLoadedEditorAssemblies (129ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (32ms)
+				RefreshPlugins (31ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002244 seconds.
+Registered in 0.002183 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
+- Completed reload, in  0.744 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (571ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1526 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.9 MB.
-System memory in use after: 72.0 MB.
+System memory in use after: 71.9 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1965.
-Total: 2.219900 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.994100 ms  DeleteObjects: 0.067400 ms)
+Total: 2.243700 ms (FindLiveObjects: 0.118800 ms CreateObjectMapping: 0.028400 ms MarkObjects: 2.036300 ms  DeleteObjects: 0.059000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,541 +131,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs
-  artifactKey: Guid(96675dcb4c8a8374283026de7a9f997b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(96675dcb4c8a8374283026de7a9f997b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0679d6d522cfc24a5261704acc611e2d') in 0.007826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.543447 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Show
-  artifactKey: Guid(752a401efe31bc2478a5b2bdb8cdc076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Show using Guid(752a401efe31bc2478a5b2bdb8cdc076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6af519915bd844ae5e12759730334f') in 0.007814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.871493 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models
-  artifactKey: Guid(26c601edef601b04ca14aee1c7b2a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models using Guid(26c601edef601b04ca14aee1c7b2a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a248887a094027fbdc0c2a901547ef94') in 0.006774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041713 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Bed.fbx
-  artifactKey: Guid(7b161392d1b54614f9095a01f2a86d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Bed.fbx using Guid(7b161392d1b54614f9095a01f2a86d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bdb85e31e31dc3367073da1d7c8a48') in 0.184073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MedRack_V2.fbx
-  artifactKey: Guid(5505093148bb01e43a6138a8bd393f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MedRack_V2.fbx using Guid(5505093148bb01e43a6138a8bd393f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6736bef6e9bcc230064985d812fbcc5f') in 0.126064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Kettle.fbx
-  artifactKey: Guid(d2869bfcb17962c42802809e8a9b2ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Kettle.fbx using Guid(d2869bfcb17962c42802809e8a9b2ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3762e3ba3b48e0fde67284f96f65db1c') in 0.066995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Bench.fbx
-  artifactKey: Guid(2e921eca35935d04b932133faf7e7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Bench.fbx using Guid(2e921eca35935d04b932133faf7e7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487d2c7ee1b0c9ee7b8544d0687b1589') in 0.044343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/BigBoiler.fbx
-  artifactKey: Guid(f5f735f9a886a0b439d2600216f4c7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/BigBoiler.fbx using Guid(f5f735f9a886a0b439d2600216f4c7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b32dc2e64dee62efbfddb35a342d33') in 0.072170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MirrorShelf.fbx
-  artifactKey: Guid(9e7790d8396287a4f984bc6caa033656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MirrorShelf.fbx using Guid(9e7790d8396287a4f984bc6caa033656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8593a4d6ad81c4cbaa0a5f3bd2311ac') in 0.080623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MedRack.fbx
-  artifactKey: Guid(2ccabc4a36b4a1a45a4057a9e88843c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MedRack.fbx using Guid(2ccabc4a36b4a1a45a4057a9e88843c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d99d3e2dad6ab9646083c209d6958f') in 0.124264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Keyboard.fbx
-  artifactKey: Guid(873633a15c0b1d34cae65552ce3620fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Keyboard.fbx using Guid(873633a15c0b1d34cae65552ce3620fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdfd750957e11e8922552a2ecc3045f') in 0.033678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CupboardLight.fbx
-  artifactKey: Guid(a55bd99a84c5ccc4685172b4ce57a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CupboardLight.fbx using Guid(a55bd99a84c5ccc4685172b4ce57a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68d0339828e56e2826cbc0a09ad6717') in 0.058639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CurtainsMedic.fbx
-  artifactKey: Guid(6825062feb9526b4b83f1f6d373ec35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CurtainsMedic.fbx using Guid(6825062feb9526b4b83f1f6d373ec35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5012303f0299a849a341f649907b7b21') in 0.067469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MainDoor.fbx
-  artifactKey: Guid(fa7d1e57e63142a44880d53cb83b1781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MainDoor.fbx using Guid(fa7d1e57e63142a44880d53cb83b1781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c170255d986ed50106b678c24d17546d') in 0.067501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DoorD_V2.fbx
-  artifactKey: Guid(cc8dc8258c356a14b9bf02775a033c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DoorD_V2.fbx using Guid(cc8dc8258c356a14b9bf02775a033c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5efadc45db6fd64dd102321e6174e8') in 0.179112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairSchool.fbx
-  artifactKey: Guid(3034d06cd370d074cb40a9832536dd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairSchool.fbx using Guid(3034d06cd370d074cb40a9832536dd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1f54a0ee79e973f1b83aa1a3bed97e') in 0.066432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/LampWall.fbx
-  artifactKey: Guid(c7e9f0df37476b14abdc05b9d1be2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/LampWall.fbx using Guid(c7e9f0df37476b14abdc05b9d1be2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a70f6ed8ac3cb236ec0aec2985f0de3') in 0.071102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/BigShelf.fbx
-  artifactKey: Guid(c32ce9c3e63df0d45ac0b666ec6aad42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/BigShelf.fbx using Guid(c32ce9c3e63df0d45ac0b666ec6aad42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6815ac28ae73b8fae29c490c186c596') in 0.040809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Box_V2.fbx
-  artifactKey: Guid(c290d518b8a8cfd4e9fa892bcfe9d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Box_V2.fbx using Guid(c290d518b8a8cfd4e9fa892bcfe9d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd924af7d7cad3d7081c4b4d83d062785') in 0.067191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairLeather.fbx
-  artifactKey: Guid(f22ee7c6c780e624aabb2458639b2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairLeather.fbx using Guid(f22ee7c6c780e624aabb2458639b2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b918f454bc0df88a707c4c0736dbfed') in 0.041427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CupboardLight_Broken.fbx
-  artifactKey: Guid(f6fe9d0eecf7e244e81236bfea665e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CupboardLight_Broken.fbx using Guid(f6fe9d0eecf7e244e81236bfea665e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28311545fe7d512c493e3e674f85ed32') in 0.056519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/NeonLamp.fbx
-  artifactKey: Guid(4ad36ef2bf03aac488ac776d33e9e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/NeonLamp.fbx using Guid(4ad36ef2bf03aac488ac776d33e9e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2e3b2d6220fe1b4a9e7e0d4e1f6a15') in 0.085735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Crutches.fbx
-  artifactKey: Guid(ce49dfa45a2393c4dada229d22e6ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Crutches.fbx using Guid(ce49dfa45a2393c4dada229d22e6ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5cf163a102a3b0f2bdcddaf911842f') in 0.078377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/BigHangs.fbx
-  artifactKey: Guid(0c68e83bf7b48c241933d43bd55b9c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/BigHangs.fbx using Guid(0c68e83bf7b48c241933d43bd55b9c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9c4c4af1219f53bd536a0a36d6f712') in 0.070492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_3.fbx
-  artifactKey: Guid(446e1d8cba145434fbe9080a9402b34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_3.fbx using Guid(446e1d8cba145434fbe9080a9402b34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f0d4fbfde891882b724b11ced2752c') in 0.045110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Door_V1.fbx
-  artifactKey: Guid(30a37ce794ca1c94192e4d8721b12940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Door_V1.fbx using Guid(30a37ce794ca1c94192e4d8721b12940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a726ee8af2f48d8abe7b51d55e6778f0') in 0.106778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/NeonLift.fbx
-  artifactKey: Guid(fc2d70d22ae3d2243993377ba4baf9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/NeonLift.fbx using Guid(fc2d70d22ae3d2243993377ba4baf9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab907bfdf857d19d4f51cc206f04b17') in 0.049643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DecalPillar.fbx
-  artifactKey: Guid(a31541bdfa8489b4588a09ed0d9ac506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DecalPillar.fbx using Guid(a31541bdfa8489b4588a09ed0d9ac506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2171bf77fe2516a50577d90b563235f6') in 0.030949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MorgueTable.fbx
-  artifactKey: Guid(9aa03e9d326119e4299299e46a91b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MorgueTable.fbx using Guid(9aa03e9d326119e4299299e46a91b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16ef1388f6d9c64a428b54a0d2475e4') in 0.070407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/FilmProjector.fbx
-  artifactKey: Guid(0b7c8694d193b4d42a96ab5530848efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/FilmProjector.fbx using Guid(0b7c8694d193b4d42a96ab5530848efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b217447512711dfb34c45a3fff676421') in 0.075903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairOffice.fbx
-  artifactKey: Guid(69f7c30f3ddce4e44aefc10a953425fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairOffice.fbx using Guid(69f7c30f3ddce4e44aefc10a953425fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb252069dbef5357e4bab132a9da21e') in 0.044938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairWhite.fbx
-  artifactKey: Guid(6be80b734ed76984e8eecff249860d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/ChairWhite.fbx using Guid(6be80b734ed76984e8eecff249860d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d6979045e511bf720e78aa49002901') in 0.062012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/GR_Glass.fbx
-  artifactKey: Guid(5609d7bf5350fe649abffe31f391af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/GR_Glass.fbx using Guid(5609d7bf5350fe649abffe31f391af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2256a968b572cf377e8e71b1d467992') in 0.119287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Mug.fbx
-  artifactKey: Guid(11d5a43bddd6b9b439b31db95a45a8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Mug.fbx using Guid(11d5a43bddd6b9b439b31db95a45a8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ca071325db575be408491f5809f780') in 0.023377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Paper.fbx
-  artifactKey: Guid(8fa7deb79d061f04f9fdf3c0091cade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Paper.fbx using Guid(8fa7deb79d061f04f9fdf3c0091cade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688a42f62b1e2cb2527216cf87a6f998') in 0.045146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MorgueBox.fbx
-  artifactKey: Guid(3c169c4578e06a4439f0140b54e4eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MorgueBox.fbx using Guid(3c169c4578e06a4439f0140b54e4eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413e676bc6382924c46f866edd118ca4') in 0.142415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DiningRoom_EnterFrame.fbx
-  artifactKey: Guid(eb52226ee3d3ba343b0725a06ae4d9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DiningRoom_EnterFrame.fbx using Guid(eb52226ee3d3ba343b0725a06ae4d9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1513deee88d3c3f724fe4f9683ab84af') in 0.123006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Pillar.fbx
-  artifactKey: Guid(91b7d431707605143aa901bee75cf344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Pillar.fbx using Guid(91b7d431707605143aa901bee75cf344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37813dc7ff5c62336a6c2f5f66b28666') in 0.098047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_1.fbx
-  artifactKey: Guid(d2a17ae04e15d7e48842bdb68fc27339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_1.fbx using Guid(d2a17ae04e15d7e48842bdb68fc27339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dca5c28ad569e03f8878a244c66e45b') in 0.032329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_4.fbx
-  artifactKey: Guid(ad78c08bef0ec744488a2e38997de7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_4.fbx using Guid(ad78c08bef0ec744488a2e38997de7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b556b89ad505bb106b631b87d1606897') in 0.031922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_2.fbx
-  artifactKey: Guid(d08b6b0796d52484197c18ae16199ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Decals_2.fbx using Guid(d08b6b0796d52484197c18ae16199ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9932151929567c1ef9bf4b3c11de8209') in 0.030420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Lamp.fbx
-  artifactKey: Guid(8f669107475f4b54aa7746fe1e7f00c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Lamp.fbx using Guid(8f669107475f4b54aa7746fe1e7f00c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ba4a002b615960741410ea6d013f44') in 0.076022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Fridge.fbx
-  artifactKey: Guid(7661b0d73cd9aa144a2fcbed3f216530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Fridge.fbx using Guid(7661b0d73cd9aa144a2fcbed3f216530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c314ca4beae285a5edf5f071bbf89bc5') in 0.076427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Mattress.fbx
-  artifactKey: Guid(2f8b1bbff2b4f384fb7992e33d176930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Mattress.fbx using Guid(2f8b1bbff2b4f384fb7992e33d176930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555e7f6b34d399fa05d17cb3976ffef7') in 0.068221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Box_V1.fbx
-  artifactKey: Guid(c971740110bfabe49baeb4d506c796b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Box_V1.fbx using Guid(c971740110bfabe49baeb4d506c796b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abdc008e8e8fe1d89ece5ff8b2391b8') in 0.065352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Prefabs
-  artifactKey: Guid(bfe59a3291f0c164e8dabac677968290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Prefabs using Guid(bfe59a3291f0c164e8dabac677968290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9abc4aea8de99fdf2d8f8e4a3a5c1d') in 0.002847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Pillow.fbx
-  artifactKey: Guid(4b97ed26bdc498444becc4ce7bc69eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Pillow.fbx using Guid(4b97ed26bdc498444becc4ce7bc69eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0361b907ef37590cdff7a92922c0478') in 0.026568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CanOld_Damaged.fbx
-  artifactKey: Guid(17498f638ad3eb042b62190a076bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CanOld_Damaged.fbx using Guid(17498f638ad3eb042b62190a076bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d74bb14d4820f7098f7bc57fbf5df6c') in 0.027617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/PC_Monitor.fbx
-  artifactKey: Guid(252af556c6617a4458e79c0373d631de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/PC_Monitor.fbx using Guid(252af556c6617a4458e79c0373d631de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59c6099733796743d9cddf7ac8d6aeb') in 0.034778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CanOld.fbx
-  artifactKey: Guid(d0ab8dd36f22162418f329eaed161d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CanOld.fbx using Guid(d0ab8dd36f22162418f329eaed161d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02652d79297ed86d7f2b7f7829b56ef5') in 0.058599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CaseMetallic.fbx
-  artifactKey: Guid(ebf1d1e987b0e2a44ab7a755cdba2b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/CaseMetallic.fbx using Guid(ebf1d1e987b0e2a44ab7a755cdba2b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593e4d7207401281b80394c7b93a37dc') in 0.102889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Elevator_Door.fbx
-  artifactKey: Guid(63054fdc7b5db8543990f13ecdc3bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Elevator_Door.fbx using Guid(63054fdc7b5db8543990f13ecdc3bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4270c76c9b95b125ce4a540384647b') in 0.062969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Carpet.fbx
-  artifactKey: Guid(cafbcd9292bb99a4fbac4e5592e69a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Carpet.fbx using Guid(cafbcd9292bb99a4fbac4e5592e69a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a978d4bb8323b9da05d534d8ded920f') in 0.066526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Board.fbx
-  artifactKey: Guid(b9d895c6e77cce64cb87e152f9b9917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Board.fbx using Guid(b9d895c6e77cce64cb87e152f9b9917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b4c81b8c00cdb0cdbb23c75e08b210') in 0.075639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Cupboard.fbx
-  artifactKey: Guid(ae1057f934c75a249ae1a6462f310568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Cupboard.fbx using Guid(ae1057f934c75a249ae1a6462f310568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd1e51101fcf37add770509a51ad71d') in 0.151407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Chandelier.fbx
-  artifactKey: Guid(72896ae3f0eccb64ca638b74db49c82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Chandelier.fbx using Guid(72896ae3f0eccb64ca638b74db49c82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561a9058bed1d2348fd14a8e56113e20') in 0.079439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Map1stFloor.fbx
-  artifactKey: Guid(7de19b92a4602fa4d90d72c20e8cf6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Map1stFloor.fbx using Guid(7de19b92a4602fa4d90d72c20e8cf6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f80e8c0e43c27e3f8ffb48c5257e55d') in 0.119020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials
-  artifactKey: Guid(bb48d42c07b5f00448e3be0e8012efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials using Guid(bb48d42c07b5f00448e3be0e8012efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b76e149ee4db6fcd57cf7abc508c89') in 0.006628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Plate.fbx
-  artifactKey: Guid(c833e90bb9060764da5ec0e3726bda1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Plate.fbx using Guid(c833e90bb9060764da5ec0e3726bda1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3197db8df4419f94a765c390c317eeb7') in 0.048545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DoorD_V1.fbx
-  artifactKey: Guid(386fb276c56b1794aa3cb06650db7b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/DoorD_V1.fbx using Guid(386fb276c56b1794aa3cb06650db7b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1389e7ab970d4517af09f39051bc1bc7') in 0.129723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Pipe.fbx
-  artifactKey: Guid(f1aead78109bad7478147ea278c42647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Pipe.fbx using Guid(f1aead78109bad7478147ea278c42647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50c598c7732d64055b86b4334d885d2') in 0.069646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Heater.fbx
-  artifactKey: Guid(f11bf7a9bb8ca404381a4495268b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Heater.fbx using Guid(f11bf7a9bb8ca404381a4495268b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998228a91a892c467dbe63db1ead9b95') in 0.087242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MorgueWheelBed.fbx
-  artifactKey: Guid(47e3e0dfc06885045b1a68d830cae108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/MorgueWheelBed.fbx using Guid(47e3e0dfc06885045b1a68d830cae108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3af88ce41f14aac2b309347cfd7ea83') in 0.067248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Elevator.fbx
-  artifactKey: Guid(42e33e9634dd3e644b114fe89de1c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/Elevator.fbx using Guid(42e33e9634dd3e644b114fe89de1c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91354d6f08fa2820d5eb0620f58442a') in 0.070716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/GateHouse_Window.fbx
-  artifactKey: Guid(d96807ee113a13e4d9aaa78abf3f963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/GateHouse_Window.fbx using Guid(d96807ee113a13e4d9aaa78abf3f963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7158e8bad5f5b932b737503f8831ad0f') in 0.109564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/KitchenShelf.fbx
-  artifactKey: Guid(038bc268b55fa1f428738f0e607a43b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Models/KitchenShelf.fbx using Guid(038bc268b55fa1f428738f0e607a43b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c2aed52e8e90453dddc9d85e9283f6') in 0.039968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.242189 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableKitchen.mat
-  artifactKey: Guid(546c360bfe9464545a31f6fd2a464b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableKitchen.mat using Guid(546c360bfe9464545a31f6fd2a464b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b6bd817b149ead70d477865274a4d8') in 0.083436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableWhite.mat
-  artifactKey: Guid(89bfc491b9f78fb4686c416d5ebd03d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableWhite.mat using Guid(89bfc491b9f78fb4686c416d5ebd03d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b5781ebffae848298d157197319d8a') in 0.036227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Wood_facing.mat
-  artifactKey: Guid(85fc3a16d9fd7284ca579dd41153f2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Wood_facing.mat using Guid(85fc3a16d9fd7284ca579dd41153f2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022ad1d31a787412f0450066e7439bee') in 0.046793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Window_Barrier.mat
-  artifactKey: Guid(95564c316f849f94b86311a72e2fae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Window_Barrier.mat using Guid(95564c316f849f94b86311a72e2fae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb604ef42764e8aa5f60946d18bb693') in 0.064961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WindowToilet.mat
-  artifactKey: Guid(2d49e3ab1598f774b8b268c7211f6c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WindowToilet.mat using Guid(2d49e3ab1598f774b8b268c7211f6c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6291b86a40bd28583b00942d5b1556') in 0.041253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Television.mat
-  artifactKey: Guid(8f0de76e9590ff54d963cbdf0532376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Television.mat using Guid(8f0de76e9590ff54d963cbdf0532376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfd50d94d673ee9491d0800f140d34') in 0.071872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/ToiletDoor.mat
-  artifactKey: Guid(2542dd6382db20f46b4178ad12c41469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/ToiletDoor.mat using Guid(2542dd6382db20f46b4178ad12c41469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a38178989bc7cf848c71bd4f8b1a5c') in 0.020353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Wood_facingFrame 1.mat
-  artifactKey: Guid(27627d4bb39169441b338e02007f8506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Wood_facingFrame 1.mat using Guid(27627d4bb39169441b338e02007f8506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33962999be19d5cf7f3b86d091b2f2b6') in 0.046663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Window_DayRoom.mat
-  artifactKey: Guid(f93a153f68e116642ae15b033f0704f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Window_DayRoom.mat using Guid(f93a153f68e116642ae15b033f0704f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08ed4e3973990a5598ccc63545d4e8f') in 0.044092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableSmall.mat
-  artifactKey: Guid(63a4fafd464f2d04ebaac7d86257c09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableSmall.mat using Guid(63a4fafd464f2d04ebaac7d86257c09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194e2914dbe5355c8f58227d33d455c9') in 0.049168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableOffice.mat
-  artifactKey: Guid(94395755f4290a9458b7c9058bdbbe26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableOffice.mat using Guid(94395755f4290a9458b7c9058bdbbe26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3993ec521f0537de0f1858595a426dd') in 0.033526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Tank_V2.mat
-  artifactKey: Guid(23d1d7442bb225b41855d7c363e6cada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Tank_V2.mat using Guid(23d1d7442bb225b41855d7c363e6cada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df506ee780f6376d710d82ab02e73f16') in 0.062141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/ToiletWall.mat
-  artifactKey: Guid(608568b3e03d42043958cee074c9c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/ToiletWall.mat using Guid(608568b3e03d42043958cee074c9c1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8822029f0e23593b6a7e5697a5273201') in 0.038667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Tank.mat
-  artifactKey: Guid(9cfd18589e6a63848bc2487ab47debe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Tank.mat using Guid(9cfd18589e6a63848bc2487ab47debe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1118bf96f38d0e144a26556713d43a5') in 0.062445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Window.mat
-  artifactKey: Guid(3570688bc1e41414488163ec660ce815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Window.mat using Guid(3570688bc1e41414488163ec660ce815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc1266ef4b5a134ac482f8440363604') in 0.040832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Wood_facingFrame.mat
-  artifactKey: Guid(db8ff7d6e9be4b44e8eee98045bb6dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Wood_facingFrame.mat using Guid(db8ff7d6e9be4b44e8eee98045bb6dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b274d7ec078c2262ad4a61248ae8c8a') in 0.042612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableSchool.mat
-  artifactKey: Guid(f834e616354a5c848b3fd6564d3e389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableSchool.mat using Guid(f834e616354a5c848b3fd6564d3e389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a26efac3fde9256e275aa95d75c94cd') in 0.051921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TV_Retro.mat
-  artifactKey: Guid(860bef16e23df224f8636556c8ac7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TV_Retro.mat using Guid(860bef16e23df224f8636556c8ac7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b163b382864839610d3e06ca25146ffc') in 0.052666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableWhiteKitchen.mat
-  artifactKey: Guid(c242a073ffb128640ba9b99d0f104304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/TableWhiteKitchen.mat using Guid(c242a073ffb128640ba9b99d0f104304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fb911fa71eb26fb2a628da09f65258') in 0.033534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Tap.mat
-  artifactKey: Guid(87eb3f9a9566a43499caf39e5c5e9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Tap.mat using Guid(87eb3f9a9566a43499caf39e5c5e9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f76fdf76a3586f788d1837dcab652e') in 0.018436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Toilet.mat
-  artifactKey: Guid(ac95f34f4c161524b9e9046e4680920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/Toilet.mat using Guid(ac95f34f4c161524b9e9046e4680920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93755f55d163be2e0dd6666fe495fab2') in 0.019159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WindowHall.mat
-  artifactKey: Guid(92ec11f8b956b9644b48899ac08f1fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WindowHall.mat using Guid(92ec11f8b956b9644b48899ac08f1fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af642beac7fd4e6ccf5c22063875925f') in 0.066177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WoodFloor.mat
-  artifactKey: Guid(4e93e108abc6c954ea8a0fcd7b5c1a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WoodFloor.mat using Guid(4e93e108abc6c954ea8a0fcd7b5c1a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc55731505c2e11f7d51789ade3a1c3') in 0.039439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WheelChair.mat
-  artifactKey: Guid(79eb64d5ebb3e1c4bba73ed7a0ac975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/Abandoned_Asylum/Materials/WheelChair.mat using Guid(79eb64d5ebb3e1c4bba73ed7a0ac975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d28fcc4fc25ed3511de005a3a8967ed') in 0.066225 seconds 
+  path: Assets/Scenes/3F.unity
+  artifactKey: Guid(8c470b7f6ee13e948a115c790d755eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3F.unity using Guid(8c470b7f6ee13e948a115c790d755eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7dd362c5d24ae674d21ca6d72735b2') in 0.007357 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
