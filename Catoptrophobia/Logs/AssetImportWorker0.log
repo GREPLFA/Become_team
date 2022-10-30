@@ -256,3 +256,4 @@ Received Import Request.
   path: Assets/UI Source/상세정보.png
   artifactKey: Guid(9bc47ce33ef096e4ea5a6f5c1b08c2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/UI Source/상세정보.png using Guid(9bc47ce33ef096e4ea5a6f5c1b08c2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737c5e8c14e7203d0f65ad8a5f457543') in 0.013761 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
