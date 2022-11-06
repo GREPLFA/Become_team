@@ -108,7 +108,7 @@ public class PlayerMove : MonoBehaviour
         audio.Play();
     }
 
-    void OnControllerColliderHit(ControllerColliderHit other)
+    /*void OnControllerColliderHit(ControllerColliderHit other)
     {
         if (other.gameObject.name == "wooden floor (1)")
         {
@@ -120,5 +120,5 @@ public class PlayerMove : MonoBehaviour
             GameObject.Find("Light").GetComponent<LightControl>().lightEvent_1 = false;
             GameObject.Find("Light").GetComponent<LightControl>().lightEvent_2 = true;
         }
-    }
+    }*/
 }
