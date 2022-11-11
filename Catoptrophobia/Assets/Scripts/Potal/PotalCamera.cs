@@ -16,7 +16,7 @@ public class PotalCamera : MonoBehaviour
         float angularDifferenceBetweenPotalRotations = Quaternion.Angle(potal.rotation, otherPotal.rotation);//두 포탈 간의 각도
 
         Quaternion portalRotationalDifference = Quaternion.AngleAxis(angularDifferenceBetweenPotalRotations, Vector3.up);
-        Vector3 newCameraDirection = portalRotationalDifference * new Vector3(0,0,-1);
+        Vector3 newCameraDirection = portalRotationalDifference * new Vector3(0, 0, -1);
         transform.rotation = Quaternion.LookRotation(newCameraDirection, Vector3.up);
     }
 }
