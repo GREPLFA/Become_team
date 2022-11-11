@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
     float jumpSpeed; // 캐릭터 점프 힘.
     float gravity;    // 캐릭터에게 작용하는 중력.
 
-    private Rigidbody playerRigidbody; // 현재 캐릭터가 가지고있는 캐릭터 컨트롤러 콜라이더.
+    private CharacterController controller; // 현재 캐릭터가 가지고있는 캐릭터 컨트롤러 콜라이더.
     private Vector3 MoveDir;                // 캐릭터의 움직이는 방향.
 
     float mouseX;
@@ -23,6 +23,10 @@ public class PlayerMove : MonoBehaviour
 
     Vector3 playerDir;
 
+    HandMirror handMirror;
+    RaycastHit hit;
+    float maxDistance = 4f;
+
     void Start()
     {
         speed = 4.0f;
@@ -30,7 +34,7 @@ public class PlayerMove : MonoBehaviour
         gravity = 20.0f;
 
         MoveDir = Vector3.zero;
-        playerRigidbody = GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>();
 
         mouseX = 0.0f;
         mouseY = 0.0f;
@@ -39,11 +43,15 @@ public class PlayerMove : MonoBehaviour
 
         //Cursor
         Cursor.lockState = CursorLockMode.Locked;
+
+        handMirror = GameObject.FindWithTag("HandMirrorCamera").GetComponent<HandMirror>();
     }
 
     void Update()
     {
         playerMove();
+        isHit();
+        Ray();
     }
 
     void playerMove()
@@ -54,27 +62,32 @@ public class PlayerMove : MonoBehaviour
 
     void characterMove()
     {
-        // 위, 아래 움직임 셋팅. 
-        MoveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
-
-        // 벡터를 로컬 좌표계 기준에서 월드 좌표계 기준으로 변환한다.
-        MoveDir = this.transform.TransformDirection(MoveDir);
-/*
-        // 스피드 증가.
-        MoveDir *= speed;*/
-
-        /*// 캐릭터 점프
-        if (Input.GetButton("Jump"))
+        // 현재 캐릭터가 땅에 있는가?
+        if (controller.isGrounded)
         {
-            MoveDir.y = jumpSpeed;
-            PlayJumpSound();
-        }*/
+            // 위, 아래 움직임 셋팅. 
+            MoveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+            // 벡터를 로컬 좌표계 기준에서 월드 좌표계 기준으로 변환한다.
+            MoveDir = this.transform.TransformDirection(MoveDir);
+
+            // 스피드 증가.
+            MoveDir *= speed;
+
+            // 캐릭터 점프
+            if (Input.GetButton("Jump"))
+            {
+                MoveDir.y = jumpSpeed;
+                PlayJumpSound();
+            }
+
+        }
 
         // 캐릭터에 중력 적용.
         MoveDir.y -= gravity * Time.deltaTime;
 
         // 캐릭터 움직임.
-        playerRigidbody.velocity = MoveDir * speed;
+        controller.Move(MoveDir * Time.deltaTime);
     }
 
     void cameraMove()
@@ -101,6 +114,32 @@ public class PlayerMove : MonoBehaviour
 
         audio.clip = landSound;
         audio.Play();
+    }
+    void isHit()
+    {
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            handMirror.isHit = true;
+            handMirror.timer += Time.deltaTime;
+            if(handMirror.timer > 0.3f)
+            {
+                
+            }
+        }
+    }
+    void Ray()
+    {
+        if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
+        {
+            Debug.DrawRay(transform.position, transform.forward * maxDistance, Color.blue);
+            if(Input.GetKeyDown(KeyCode.E))
+            {
+                if (handMirror.hasKey && hit.transform.gameObject.CompareTag("Door"))
+                {
+                    hit.transform.gameObject.GetComponent<Door>().ChangeDoorState();
+                }
+            }
+        }
     }
 
     /*void OnControllerColliderHit(ControllerColliderHit other)

@@ -29,7 +29,7 @@ public class PlayerControl : MonoBehaviour
     private float minStamina;
 
     public RectTransform stBar;
-
+    HandMirror handMirror;
 
     //public 
     public void Start()
@@ -46,6 +46,7 @@ public class PlayerControl : MonoBehaviour
         maxStamina = stamina;
         minStamina = 0;
         stBar.localScale = Vector3.one;
+        handMirror = GameObject.FindWithTag("HandMirrorCamera").GetComponent<HandMirror>();
     }
 
     public void Update()
@@ -54,7 +55,7 @@ public class PlayerControl : MonoBehaviour
         MouseControl();
         Sprint();
         STBar();
-
+        isHit();
         cc.Move(moveDirection * speed * Time.deltaTime);
     }
 
@@ -108,6 +109,14 @@ public class PlayerControl : MonoBehaviour
         {
             stamina+=0.5f;
             stBar.localScale = new Vector3(stamina/maxStamina, 1, 1);
+        }
+    }
+
+    void isHit()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            handMirror.isHit = true;
         }
     }
 }
