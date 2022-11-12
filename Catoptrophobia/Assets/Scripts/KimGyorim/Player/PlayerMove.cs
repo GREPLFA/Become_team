@@ -23,6 +23,10 @@ public class PlayerMove : MonoBehaviour
 
     Vector3 playerDir;
 
+    HandMirror handMirror;
+    RaycastHit hit;
+    float maxDistance = 4f;
+
     void Start()
     {
         speed = 4.0f;
@@ -39,11 +43,15 @@ public class PlayerMove : MonoBehaviour
 
         //Cursor
         Cursor.lockState = CursorLockMode.Locked;
+
+        handMirror = GameObject.FindWithTag("HandMirrorCamera").GetComponent<HandMirror>();
     }
 
     void Update()
     {
         playerMove();
+        isHit();
+        Ray();
     }
 
     void playerMove()
@@ -107,8 +115,34 @@ public class PlayerMove : MonoBehaviour
         audio.clip = landSound;
         audio.Play();
     }
+    void isHit()
+    {
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            handMirror.isHit = true;
+            handMirror.timer += Time.deltaTime;
+            if(handMirror.timer > 0.3f)
+            {
+                
+            }
+        }
+    }
+    void Ray()
+    {
+        if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
+        {
+            Debug.DrawRay(transform.position, transform.forward * maxDistance, Color.blue);
+            if(Input.GetKeyDown(KeyCode.E))
+            {
+                if (handMirror.hasKey && hit.transform.gameObject.CompareTag("Door"))
+                {
+                    hit.transform.gameObject.GetComponent<Door>().ChangeDoorState();
+                }
+            }
+        }
+    }
 
-    void OnControllerColliderHit(ControllerColliderHit other)
+    /*void OnControllerColliderHit(ControllerColliderHit other)
     {
         if (other.gameObject.name == "wooden floor (1)")
         {
@@ -120,5 +154,5 @@ public class PlayerMove : MonoBehaviour
             GameObject.Find("Light").GetComponent<LightControl>().lightEvent_1 = false;
             GameObject.Find("Light").GetComponent<LightControl>().lightEvent_2 = true;
         }
-    }
+    }*/
 }
