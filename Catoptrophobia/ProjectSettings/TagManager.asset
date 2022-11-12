@@ -6,9 +6,7 @@ TagManager:
   tags:
   - Door
   - Object
-  - HandMirrorCamera
-  - HandMirror
-  - Orgel
+  - Paper
   layers:
   - Default
   - TransparentFX

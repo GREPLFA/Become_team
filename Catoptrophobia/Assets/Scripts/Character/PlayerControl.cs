@@ -11,8 +11,6 @@ public class PlayerControl : MonoBehaviour
 
     public float speed = 5.0f;
 
-    public GameObject player;
-
     private Vector3 moveDirection;  //이동방향
 
     [SerializeField]
@@ -24,14 +22,12 @@ public class PlayerControl : MonoBehaviour
     public float mouseX;
     public float mouseY;
 
-    public float stamina = 1000;
-    private float maxStamina;
-    private float minStamina;
+    //public float stamina = 1000;
+    //private float maxStamina;
+    //private float minStamina;
 
-    public RectTransform stBar;
-    HandMirror handMirror;
+    //public RectTransform stBar;
 
-    //public 
     public void Start()
     {
         playercontrol = GetComponent<PlayerControl>();
@@ -43,19 +39,18 @@ public class PlayerControl : MonoBehaviour
         mouseX=0;
         mouseY=0;
 
-        maxStamina = stamina;
-        minStamina = 0;
-        stBar.localScale = Vector3.one;
-        handMirror = GameObject.FindWithTag("HandMirrorCamera").GetComponent<HandMirror>();
+        //maxStamina = stamina;
+        //minStamina = 0;
+        //stBar.localScale = Vector3.one;
     }
 
     public void Update()
     {
         MoveControl();
         MouseControl();
-        Sprint();
-        STBar();
-        isHit();
+        //Sprint();
+        //STBar();
+
         cc.Move(moveDirection * speed * Time.deltaTime);
     }
 
@@ -74,20 +69,20 @@ public class PlayerControl : MonoBehaviour
         //쿼터니온 회전값을 방향정보에 곱하여 moveDirection의 x z에 적용>카메라 전방을 기준으로 움직이게 함 
     }
 
-    public void Sprint()
-    {
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            if (stamina > minStamina)
-            {
-                speed = 7.5f;
-            }
-            else
-                speed = 5.0f;
-        }
-        else
-            speed = 5.0f;
-    }
+    //public void Sprint()
+    //{
+    //   if (Input.GetKey(KeyCode.LeftShift))
+    //    {
+    //        if (stamina > minStamina)
+    //        {
+    //            speed = 7.5f;
+    //        }
+    //        else
+    //            speed = 5.0f;
+    //    }
+    //    else
+    //        speed = 5.0f;
+    //}
 
     public void MouseControl()
     {
@@ -96,27 +91,18 @@ public class PlayerControl : MonoBehaviour
 
         camcontrol.RotateTo(mouseX, mouseY); //rotateto로 값 전달
 
-        player.transform.Rotate(Vector3.up * 5.0f * mouseX); //카메라 회전 시 캐릭터 함께 회전
     }
 
-    public void STBar()
-    {
-        if(cc.velocity.sqrMagnitude>=7.5&&Input.GetKey(KeyCode.LeftShift) && stamina > minStamina){
-            stamina-=1;
-            stBar.localScale = new Vector3(stamina/maxStamina, 1, 1);
-        }
-        else if (stamina < maxStamina)
-        {
-            stamina+=0.5f;
-            stBar.localScale = new Vector3(stamina/maxStamina, 1, 1);
-        }
-    }
-
-    void isHit()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            handMirror.isHit = true;
-        }
-    }
+    //public void STBar()
+    //{
+    //    if(cc.velocity.sqrMagnitude>=7.5&&Input.GetKey(KeyCode.LeftShift) && stamina > minStamina){
+    //        stamina-=1;
+    //        stBar.localScale = new Vector3(stamina/maxStamina, 1, 1);
+    //    }
+    //    else if (stamina < maxStamina)
+    //    {
+    //        stamina+=0.5f;
+    //        stBar.localScale = new Vector3(stamina/maxStamina, 1, 1);
+    //    }
+    //}
 }
