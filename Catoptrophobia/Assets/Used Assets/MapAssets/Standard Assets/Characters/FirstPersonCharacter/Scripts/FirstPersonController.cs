@@ -43,6 +43,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        HandMirror handMirror;
         // Use this for initialization
         private void Start()
         {
@@ -56,6 +57,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+
+            handMirror = GameObject.FindWithTag("HandMirrorCamera").GetComponent<HandMirror>();
         }
 
 
@@ -82,6 +85,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+            isHit();
+            if (handMirror.isHit)
+            {
+                isHitTimer();
+            }
         }
 
 
@@ -255,6 +263,24 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 return;
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+        }
+
+        void isHit()
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                handMirror.isHit = true;
+            }
+        }
+
+        void isHitTimer()
+        {
+            handMirror.timer += Time.deltaTime;
+            if (handMirror.timer > 0.3f)
+            {
+                handMirror.timer = 0f;
+                handMirror.isHit = false;
+            }
         }
     }
 }

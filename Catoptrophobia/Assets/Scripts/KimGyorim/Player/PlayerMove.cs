@@ -6,54 +6,49 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    float speed;      // 캐릭터 움직임 스피드.
-    float jumpSpeed; // 캐릭터 점프 힘.
+    public float speed;      // 캐릭터 움직임 스피드.
+    public float jumpPower; // 캐릭터 점프 힘.
     float gravity;    // 캐릭터에게 작용하는 중력.
 
-    private CharacterController controller; // 현재 캐릭터가 가지고있는 캐릭터 컨트롤러 콜라이더.
+    //private Rigidbody rigid; // 현재 캐릭터가 가지고있는 캐릭터 컨트롤러 콜라이더.
     private Vector3 MoveDir;                // 캐릭터의 움직이는 방향.
-
+    private CharacterController controller;
+    private CapsuleCollider capsule;
+    private Rigidbody rigidbody;
     float mouseX;
     float mouseY;
     float horizontal_MouseSpeed;
     float vertical_MouseSpeed;
 
-    public AudioClip jumpSound;
-    public AudioClip landSound;
+    bool isJump = true;
 
-    Vector3 playerDir;
-
-    HandMirror handMirror;
-    RaycastHit hit;
-    float maxDistance = 4f;
-
+    bool isChar = true;
     void Start()
     {
-        speed = 4.0f;
-        jumpSpeed = 6.0f;
+        speed = 10.0f;
+        jumpPower = 6.0f;
         gravity = 20.0f;
 
         MoveDir = Vector3.zero;
-        controller = GetComponent<CharacterController>();
+        //rigid = GetComponent<Rigidbody>();
 
         mouseX = 0.0f;
         mouseY = 0.0f;
-        horizontal_MouseSpeed = 5.0f;
-        vertical_MouseSpeed = 6.0f;
+        horizontal_MouseSpeed = 3.0f;
+        vertical_MouseSpeed = 3.0f;
 
+        controller = GetComponent<CharacterController>();
+        rigidbody = GetComponent<Rigidbody>();
         //Cursor
         Cursor.lockState = CursorLockMode.Locked;
-
-        handMirror = GameObject.FindWithTag("HandMirrorCamera").GetComponent<HandMirror>();
+        capsule = GetComponent<CapsuleCollider>();
+        capsule.enabled = false;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         playerMove();
-        isHit();
-        Ray();
     }
-
     void playerMove()
     {
         characterMove();
@@ -62,8 +57,31 @@ public class PlayerMove : MonoBehaviour
 
     void characterMove()
     {
-        // 현재 캐릭터가 땅에 있는가?
-        if (controller.isGrounded)
+        if(isChar)
+        {
+            if (controller.isGrounded)
+            {
+                // 위, 아래 움직임 셋팅. 
+                MoveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+                // 벡터를 로컬 좌표계 기준에서 월드 좌표계 기준으로 변환한다.
+                MoveDir = transform.TransformDirection(MoveDir);
+
+                // 스피드 증가.
+                MoveDir *= speed;
+
+                // 캐릭터 점프
+                if (Input.GetButton("Jump"))
+                    MoveDir.y = jumpPower;
+
+            }
+
+            // 캐릭터에 중력 적용.
+            MoveDir.y -= gravity * Time.deltaTime;
+
+            controller.Move(MoveDir * Time.deltaTime);
+        }
+        else
         {
             // 위, 아래 움직임 셋팅. 
             MoveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -75,19 +93,14 @@ public class PlayerMove : MonoBehaviour
             MoveDir *= speed;
 
             // 캐릭터 점프
-            if (Input.GetButton("Jump"))
+            if (Input.GetButton("Jump") && isJump)
             {
-                MoveDir.y = jumpSpeed;
-                PlayJumpSound();
+                rigidbody.AddForce(Vector3.up * jumpPower * Time.deltaTime, ForceMode.Impulse);
             }
 
+            // 캐릭터 움직임.
+            this.transform.position += MoveDir * Time.deltaTime;
         }
-
-        // 캐릭터에 중력 적용.
-        MoveDir.y -= gravity * Time.deltaTime;
-
-        // 캐릭터 움직임.
-        controller.Move(MoveDir * Time.deltaTime);
     }
 
     void cameraMove()
@@ -99,7 +112,28 @@ public class PlayerMove : MonoBehaviour
 
         transform.eulerAngles = new Vector3(-mouseY, mouseX, 0);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        isJump = true;
+        if (other.gameObject.CompareTag("PotalColider"))
+        {
+            Debug.Log("1");
+            controller.enabled = false;
+            capsule.enabled = true;
+            isChar = false;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("PotalColider"))
+        {
+            controller.enabled = true;
+            capsule.enabled = false;
+            isChar = true;
+        }
+    }
 
+    /*
     private void PlayJumpSound()
     {
         AudioSource audio = GetComponent<AudioSource>();
@@ -115,44 +149,7 @@ public class PlayerMove : MonoBehaviour
         audio.clip = landSound;
         audio.Play();
     }
-    void isHit()
-    {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            handMirror.isHit = true;
-            handMirror.timer += Time.deltaTime;
-            if(handMirror.timer > 0.3f)
-            {
-                
-            }
-        }
-    }
-    void Ray()
-    {
-        if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
-        {
-            Debug.DrawRay(transform.position, transform.forward * maxDistance, Color.blue);
-            if(Input.GetKeyDown(KeyCode.E))
-            {
-                if (handMirror.hasKey && hit.transform.gameObject.CompareTag("Door"))
-                {
-                    hit.transform.gameObject.GetComponent<Door>().ChangeDoorState();
-                }
-            }
-        }
-    }
+    */
 
-    /*void OnControllerColliderHit(ControllerColliderHit other)
-    {
-        if (other.gameObject.name == "wooden floor (1)")
-        {
-            GameObject.Find("Light").GetComponent<LightControl>().lightEvent_1 = true;
-        }
 
-        if (other.gameObject.name == "Cube (1)")
-        {
-            GameObject.Find("Light").GetComponent<LightControl>().lightEvent_1 = false;
-            GameObject.Find("Light").GetComponent<LightControl>().lightEvent_2 = true;
-        }
-    }*/
 }

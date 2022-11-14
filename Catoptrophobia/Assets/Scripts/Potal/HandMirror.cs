@@ -12,6 +12,11 @@ public class HandMirror : MonoBehaviour
 
     public GameObject handMirror;
     public float timer = 0f;
+    KeyManager keyManager;
+    void Start()
+    {
+        keyManager = GameObject.Find("KeyManager").GetComponent<KeyManager>();
+    }
 
     void Update()
     {
@@ -23,16 +28,6 @@ public class HandMirror : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
         {
             Debug.DrawRay(transform.position, transform.forward * maxDistance, Color.blue);
-            if (hit.transform.gameObject.CompareTag("Object"))
-            {
-                hit.collider.gameObject.GetComponent<Outline>().enabled = true;
-                if (isHit)
-                {
-                    hit.transform.gameObject.SetActive(false);
-                    isHit = false;
-                    hasKey = true;
-                }
-            }
             if (hit.transform.gameObject.CompareTag("Orgel"))
             {
                 hit.collider.gameObject.GetComponent<Outline>().enabled = true;

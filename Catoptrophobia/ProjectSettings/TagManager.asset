@@ -7,6 +7,12 @@ TagManager:
   - Door
   - Object
   - Paper
+  - HandMirrorCamera
+  - HandMirror
+  - Orgel
+  - KeyHole
+  - Key
+  - PotalColider
   layers:
   - Default
   - TransparentFX
