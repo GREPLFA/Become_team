@@ -15,11 +15,11 @@ C:/Users/C/gitUnity/Become_team/Catoptrophobia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57906
+57002
 Successfully changed project path to: C:/Users/C/gitUnity/Become_team/Catoptrophobia
 C:/Users/C/gitUnity/Become_team/Catoptrophobia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003944 seconds.
+Registered in 0.003519 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
+- Completed reload, in  0.636 seconds
 Domain Reload Profiling:
-	ReloadAssembly (611ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (483ms)
-			LoadAssemblies (48ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (469ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (182ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005628 seconds.
+Registered in 0.005140 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
+- Completed reload, in  1.012 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1034ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (799ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (316ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1671 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 83.7 MB.
+System memory in use before: 84.2 MB.
+System memory in use after: 83.9 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2114.
-Total: 2.843800 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.045600 ms MarkObjects: 2.254600 ms  DeleteObjects: 0.344000 ms)
+Total: 3.175100 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.049400 ms MarkObjects: 2.565900 ms  DeleteObjects: 0.334100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,373 +131,523 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/3F.unity
-  artifactKey: Guid(8c470b7f6ee13e948a115c790d755eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/3F.unity using Guid(8c470b7f6ee13e948a115c790d755eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc4dbdf51ef51b88c7c093cd4fbe805') in 0.008639 seconds 
+  path: Assets/Scenes/CharacterTest.unity
+  artifactKey: Guid(2b1ec786d8301bd43b5a78c38d65b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CharacterTest.unity using Guid(2b1ec786d8301bd43b5a78c38d65b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ca1f5adb9469f7c5536b09a5d50119') in 0.008395 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.691276 seconds.
-  path: Assets/JackInTheBox
-  artifactKey: Guid(c8ccb7ce75b6b974389a82af85d813d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JackInTheBox using Guid(c8ccb7ce75b6b974389a82af85d813d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8077cb0f15360a217bc4ddbfb2c0c87') in 0.008017 seconds 
+  Time since last request: 163.682417 seconds.
+  path: Assets/Scripts/Character/PlayerControl.cs
+  artifactKey: Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/PlayerControl.cs using Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a29750e6764f39d12fff030d9aaa4a') in 0.034882 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 81.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 3.205200 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.048400 ms MarkObjects: 2.629900 ms  DeleteObjects: 0.316500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 2.767400 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.042400 ms MarkObjects: 2.195500 ms  DeleteObjects: 0.328000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.283117 seconds.
-  path: Assets/blood3.prefab
-  artifactKey: Guid(ee1d09cfa291d884492e1adafb563e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/blood3.prefab using Guid(ee1d09cfa291d884492e1adafb563e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb45f3c6483fe7e8b9707e4bbee448a') in 0.103484 seconds 
+  Time since last request: 689.705892 seconds.
+  path: Assets/Scripts/Character/CMOVE.cs
+  artifactKey: Guid(4ca73fed6f76ffe418c172ff103470b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/CMOVE.cs using Guid(4ca73fed6f76ffe418c172ff103470b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca13fd4150bb2d5278007bd5a998623') in 0.010639 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 2.850100 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.226500 ms  DeleteObjects: 0.366700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.496134 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital
-  artifactKey: Guid(92937ea23529bbc46ae14fd591817470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital using Guid(92937ea23529bbc46ae14fd591817470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db4b14270d5428e5a6853fb37cde4d5') in 0.008890 seconds 
+  Time since last request: 4095.669443 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-color.png
+  artifactKey: Guid(5307f47d83c93ee19978cf07a95eda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-color.png using Guid(5307f47d83c93ee19978cf07a95eda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af02ff95115c1dc1d1455b3feca0e7e9') in 0.111237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.046053 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs
-  artifactKey: Guid(12c2bd96f6fe357e9aa873bddde1bd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs using Guid(12c2bd96f6fe357e9aa873bddde1bd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b744a935042d2c422546e788c5b4b40') in 0.011033 seconds 
+  Time since last request: 0.000264 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-color.png
+  artifactKey: Guid(19801fbf8483eaa8fb20bae87a2ed24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-color.png using Guid(19801fbf8483eaa8fb20bae87a2ed24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998c4b6f95edf96359a26d1fc3d437a') in 0.022986 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.663052 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props
-  artifactKey: Guid(5ca9986429f5c0011adc12cecfa6d09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props using Guid(5ca9986429f5c0011adc12cecfa6d09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea18cb5905c579f1ed94934ecd949bf') in 0.005944 seconds 
+  Time since last request: 0.000212 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood1.png
+  artifactKey: Guid(8efc3b7d29bcc0cf5923d2c2dcf39c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood1.png using Guid(8efc3b7d29bcc0cf5923d2c2dcf39c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6519db220a686ee51027e4c270876dd') in 0.014755 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.046490 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bars.prefab
-  artifactKey: Guid(cf4493b924c03ede89195fbc9e4b0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bars.prefab using Guid(cf4493b924c03ede89195fbc9e4b0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295b43b950d70a3a01576ee38be2e9bb') in 0.161806 seconds 
+  Time since last request: 0.000186 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_normal.png
+  artifactKey: Guid(b94c6662704fd49ee9d4eac4403ca90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_normal.png using Guid(b94c6662704fd49ee9d4eac4403ca90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd879d71dd9d13ed2df4b2568da695da') in 0.092572 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white4.prefab
-  artifactKey: Guid(f25cd2b107d0a606c946a49d68db162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white4.prefab using Guid(f25cd2b107d0a606c946a49d68db162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276adf69770abc79131fbeaae9f04679') in 0.044131 seconds 
+  Time since last request: 0.000257 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-normal.png
+  artifactKey: Guid(77d44dce72ea040858402f6d22f67cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-normal.png using Guid(77d44dce72ea040858402f6d22f67cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796a937134f5c88492832b7420fd6939') in 0.014182 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe5.prefab
-  artifactKey: Guid(69c3c7b0f6c6c8d78bb87c2732a356c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe5.prefab using Guid(69c3c7b0f6c6c8d78bb87c2732a356c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9964d06331433c59ffe993d32219bd3c') in 0.011956 seconds 
+  Time since last request: 0.000169 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-color.png
+  artifactKey: Guid(856005de69df7a5e1b8cf688470826a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-color.png using Guid(856005de69df7a5e1b8cf688470826a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6097011f259c215a3c497f4cf6d36d44') in 0.017714 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine-tray.prefab
-  artifactKey: Guid(58a0fd7e2e676775db7a934fbb100210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine-tray.prefab using Guid(58a0fd7e2e676775db7a934fbb100210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eae2d544eb5a9d71152c507f9f62530') in 0.019496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/lamp.prefab
-  artifactKey: Guid(4cc8ab6eccdedcaa7a6a9de63a0c8b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/lamp.prefab using Guid(4cc8ab6eccdedcaa7a6a9de63a0c8b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0067cf74288ebdb0305988e691733b87') in 0.111977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe2.prefab
-  artifactKey: Guid(832e0318b5a9eea9eace3f2e8e0a1d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe2.prefab using Guid(832e0318b5a9eea9eace3f2e8e0a1d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2a18ce16293225caf4a66200079998') in 0.013963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/garbage-bag1.prefab
-  artifactKey: Guid(9cff0e8429283aceda320b5e4d05b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/garbage-bag1.prefab using Guid(9cff0e8429283aceda320b5e4d05b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a66d39aaa80dcd894738d3f4146710f') in 0.016949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle2.prefab
-  artifactKey: Guid(b3679649966610ad3a1c31d6942910ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle2.prefab using Guid(b3679649966610ad3a1c31d6942910ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49e61d85ed283f9f17ce498b94861d5') in 0.065978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white.prefab
-  artifactKey: Guid(dc3b55cef848aa7a3be08e67b7f0c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white.prefab using Guid(dc3b55cef848aa7a3be08e67b7f0c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd4e400eef8a4cb880e30c11227b3ff') in 0.014518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe4.prefab
-  artifactKey: Guid(7fbcc81b52ddc812baeb4b190f962e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe4.prefab using Guid(7fbcc81b52ddc812baeb4b190f962e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956fc07a5815d3f1a0a902e89854938d') in 0.010762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white2.prefab
-  artifactKey: Guid(f183b36cd5206adba9738cde082896fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white2.prefab using Guid(f183b36cd5206adba9738cde082896fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73e9adc3348e21d552180f1feb2d3e7') in 0.020373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/mattress2.prefab
-  artifactKey: Guid(9d64777768461b5f1826d13634470fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/mattress2.prefab using Guid(9d64777768461b5f1826d13634470fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1113707f5f1783e87196688a2a27cd58') in 0.015402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle4.prefab
-  artifactKey: Guid(fc94a7e9fdfe3c534aa6cc2b24b7ed22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle4.prefab using Guid(fc94a7e9fdfe3c534aa6cc2b24b7ed22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f372387bb8a56682095235cc3f94086') in 0.022536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white3.prefab
-  artifactKey: Guid(5c3654fa42b84cb719e19170b4558660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cabinet-white3.prefab using Guid(5c3654fa42b84cb719e19170b4558660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76538381653ceb4897014ac89f597d0') in 0.020776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/fan.prefab
-  artifactKey: Guid(60e6b8c74f6a399dbad373847dd18f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/fan.prefab using Guid(60e6b8c74f6a399dbad373847dd18f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cd78c32b08e0a170466ec6c744cfea') in 0.015017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine2.prefab
-  artifactKey: Guid(a97d4adff7d6afe1895093559baa1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine2.prefab using Guid(a97d4adff7d6afe1895093559baa1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef5c46d5290d1b19a6abf3188870cca') in 0.022902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/mattress1.prefab
-  artifactKey: Guid(e611815587a042b67a022d977da60c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/mattress1.prefab using Guid(e611815587a042b67a022d977da60c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f56370e1be79bf68acb564204e5580') in 0.016896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/box1.prefab
-  artifactKey: Guid(17be492dd387d82e29b210552b06aaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/box1.prefab using Guid(17be492dd387d82e29b210552b06aaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08893dfc2b9b085b476086ae5118c242') in 0.023653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/instrument_table.prefab
-  artifactKey: Guid(cafb377d5b64e76f393668b32d0e2800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/instrument_table.prefab using Guid(cafb377d5b64e76f393668b32d0e2800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73746cb4754ed88b6ca573cf28a18136') in 0.073393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/metal-tray.prefab
-  artifactKey: Guid(2a060edf50aba87488b40e4f9b574bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/metal-tray.prefab using Guid(2a060edf50aba87488b40e4f9b574bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3f1361ce54be3a10b4e8be7c76860e') in 0.014481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood4.prefab
-  artifactKey: Guid(e47d16f7a7d07bd04aca77eb5fd13a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood4.prefab using Guid(e47d16f7a7d07bd04aca77eb5fd13a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851e7f1f8494a8767ed7d07f44d5545f') in 0.029786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cracks.prefab
-  artifactKey: Guid(e7914345c41f8a7f19284b6ebd5cf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/cracks.prefab using Guid(e7914345c41f8a7f19284b6ebd5cf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82a76a0077993fd866501f96d62fcce') in 0.146424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine4.prefab
-  artifactKey: Guid(f005077f3ec07e3a18aa951c5613b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine4.prefab using Guid(f005077f3ec07e3a18aa951c5613b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5860803aadc9a748ea38f41ad7456fe2') in 0.025349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/box2.prefab
-  artifactKey: Guid(4d01e420a560aad309993f1c4e16fcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/box2.prefab using Guid(4d01e420a560aad309993f1c4e16fcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64abeac2e098f9ee0181fe6812512ae') in 0.013270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle1.prefab
-  artifactKey: Guid(71006709d5a589afb9accc35c09281f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle1.prefab using Guid(71006709d5a589afb9accc35c09281f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421088056c67014832a583c0dc5f2fe4') in 0.010677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine5.prefab
-  artifactKey: Guid(15d542e1ef3d9d3c690a01ebd2953584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine5.prefab using Guid(15d542e1ef3d9d3c690a01ebd2953584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42df04435c7a9d88f009dc385c3ce513') in 0.020571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/energy-box.prefab
-  artifactKey: Guid(be6bf2a64e644d585807998fc802999a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/energy-box.prefab using Guid(be6bf2a64e644d585807998fc802999a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffb39919085428d35bb2b130c5b96e7') in 0.064991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bed.prefab
-  artifactKey: Guid(2f2f5352a3a865dd7be4864ad3625195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bed.prefab using Guid(2f2f5352a3a865dd7be4864ad3625195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030b7a0e34b67367d27e48d356aa28ac') in 0.011394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/box3.prefab
-  artifactKey: Guid(5eb8976ad722fde009bca3779b31e839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/box3.prefab using Guid(5eb8976ad722fde009bca3779b31e839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03b2a5df59133a461f9361a757bcfef') in 0.017066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/iv_holder.prefab
-  artifactKey: Guid(b93da15f48b9da62d8df5187fee1fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/iv_holder.prefab using Guid(b93da15f48b9da62d8df5187fee1fa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0589299ca8a7c05885148b384ff2eac0') in 0.011127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle3.prefab
-  artifactKey: Guid(971f738bdd33d8e45ad58d348fce28db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bottle3.prefab using Guid(971f738bdd33d8e45ad58d348fce28db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008ce3126f4c306eff3cd65e31c754c3') in 0.019830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/garbage-bag2.prefab
-  artifactKey: Guid(d56e3846cd593cc15bd3c297ba72b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/garbage-bag2.prefab using Guid(d56e3846cd593cc15bd3c297ba72b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c03b3c6c1c8a02ad341e0ae8d2d1ef') in 0.021563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/board.prefab
-  artifactKey: Guid(c32c6e9ae8f15d874872d96c32f9fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/board.prefab using Guid(c32c6e9ae8f15d874872d96c32f9fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6ebf82f255a052e5ba6c2da9e32160') in 0.022532 seconds 
+  Time since last request: 0.000192 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-normal.png
+  artifactKey: Guid(6a92d67009f2cfdde9e502b2eea1f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-normal.png using Guid(6a92d67009f2cfdde9e502b2eea1f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9230a1052118cf4035f9f41600520') in 0.018347 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000223 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine3.prefab
-  artifactKey: Guid(e4bf25d7c898ae9368b1295aca63ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine3.prefab using Guid(e4bf25d7c898ae9368b1295aca63ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ab96c3ff6f3dbc932af3651cc1d162') in 0.021029 seconds 
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-normal.png
+  artifactKey: Guid(27ad5b2be2a919c7e87f0be0a8e95b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-normal.png using Guid(27ad5b2be2a919c7e87f0be0a8e95b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef8488ef817e29bf1aed3780d093ca') in 0.012552 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/concrete.prefab
-  artifactKey: Guid(c44f273acb49d000a90dfb10a6ba62ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/concrete.prefab using Guid(c44f273acb49d000a90dfb10a6ba62ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798f1dc4d39a4ac79206bdb25ca5be8b') in 0.019576 seconds 
+  Time since last request: 0.000271 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/cracks.png
+  artifactKey: Guid(34bd89c65585bc832b95a3b63a8d6b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/cracks.png using Guid(34bd89c65585bc832b95a3b63a8d6b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905ae5f76eb397bd74d79eaa7956cd80') in 0.017309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood3.prefab
-  artifactKey: Guid(66897d50244529d96810cca94d74829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood3.prefab using Guid(66897d50244529d96810cca94d74829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e936b4f752ead64af4a29a189b7ab544') in 0.014601 seconds 
+  Time since last request: 0.000167 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-color.png
+  artifactKey: Guid(e7592598732c27aaabe4edfcc5a84379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-color.png using Guid(e7592598732c27aaabe4edfcc5a84379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be835f8ae84814c30f93489031476d2') in 0.014245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood4.png
+  artifactKey: Guid(c26d7e43ad41e6fe9af69b229d777403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood4.png using Guid(c26d7e43ad41e6fe9af69b229d777403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51871a55d6a34aacb14a02a6f44b8fd3') in 0.016773 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000151 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/curtain.prefab
-  artifactKey: Guid(c879597b466115a4ead39ca35bc1bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/curtain.prefab using Guid(c879597b466115a4ead39ca35bc1bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c79e8c8dff3abe0b47c1d292dc16560') in 0.020561 seconds 
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-emission.png
+  artifactKey: Guid(1a400da86bc0f86b3892f1b86d43a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-emission.png using Guid(1a400da86bc0f86b3892f1b86d43a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9b9a995e0fcdd15e605d773031256d') in 0.015450 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bed2.prefab
-  artifactKey: Guid(872ca98738e74298da5a264f1713b403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/bed2.prefab using Guid(872ca98738e74298da5a264f1713b403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bfaeaccc0482ad8a59e1853a79af7b') in 0.015515 seconds 
+  Time since last request: 0.000216 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_color.png
+  artifactKey: Guid(1e1dee80d8c41acdbb16fd98d0a2418f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_color.png using Guid(1e1dee80d8c41acdbb16fd98d0a2418f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee95d696213e7038280b9d52452674d5') in 0.013842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/door.prefab
-  artifactKey: Guid(5e28176a4ea851a9b95c5c66844694ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/door.prefab using Guid(5e28176a4ea851a9b95c5c66844694ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb5ec7c0316a3cfe15221112f666909') in 0.021789 seconds 
+  Time since last request: 0.000147 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood2.png
+  artifactKey: Guid(1e2196381cc9ac6308d4a7c09ef33f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood2.png using Guid(1e2196381cc9ac6308d4a7c09ef33f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bc7dd67e0943403ccbb59ab8f30192') in 0.012257 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood2.prefab
-  artifactKey: Guid(d75fceea95a75200ea1f98226d5f1643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood2.prefab using Guid(d75fceea95a75200ea1f98226d5f1643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e90970402181ec9ddedf38a497c2a0') in 0.024249 seconds 
+  Time since last request: 0.000156 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood3.png
+  artifactKey: Guid(815d72d0cb66f2a958def251e92c8747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood3.png using Guid(815d72d0cb66f2a958def251e92c8747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708283023e9b7754ddce1af0fef47561') in 0.013652 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe1.prefab
-  artifactKey: Guid(7af367e3af7cd90c2aa428560d3b3eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe1.prefab using Guid(7af367e3af7cd90c2aa428560d3b3eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4559f024301615b9db0b89ca70377a49') in 0.020757 seconds 
+  Time since last request: 0.000181 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_normal.png
+  artifactKey: Guid(73d8b068f5c78105e9f1ab2260d17ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_normal.png using Guid(73d8b068f5c78105e9f1ab2260d17ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f29bb46dceb8f5725dcf7e278b2f4f') in 0.013750 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood1.prefab
-  artifactKey: Guid(8e5a4562ee7923383b086b23e30f12da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/blood1.prefab using Guid(8e5a4562ee7923383b086b23e30f12da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4fea8682c9c189cadf489a53590344') in 0.019482 seconds 
+  Time since last request: 0.000147 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_color.png
+  artifactKey: Guid(09231e7e488bbc85ca2bafa0d6d91f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_color.png using Guid(09231e7e488bbc85ca2bafa0d6d91f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02299a8807dd0ea7398daad6e6381b2') in 0.025325 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe3.prefab
-  artifactKey: Guid(180ea36bec6430980a58be6be8769bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/pipe3.prefab using Guid(180ea36bec6430980a58be6be8769bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b63160b9747e256d59fa98bee48f6f3') in 0.018371 seconds 
+  Time since last request: 0.000216 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-normal.png
+  artifactKey: Guid(244ffc59f98bfc790b52b930c619c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-normal.png using Guid(244ffc59f98bfc790b52b930c619c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557858deda2f4f5a443827ee3763e23d') in 0.018124 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/mattress3.prefab
-  artifactKey: Guid(d074bc1a471b84631b69fe4606cc34a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/mattress3.prefab using Guid(d074bc1a471b84631b69fe4606cc34a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3e8b986ec1d38d54431fbb51997143') in 0.018337 seconds 
+  Time since last request: 0.000168 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-normal.png
+  artifactKey: Guid(331cbe7cefdcc7c34ba801aeb8573f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-normal.png using Guid(331cbe7cefdcc7c34ba801aeb8573f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57492b5fec6d46b478fb80c92b91153c') in 0.017396 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine1.prefab
-  artifactKey: Guid(c5ca9f19040be062c9a113b9d22ec214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/medicine1.prefab using Guid(c5ca9f19040be062c9a113b9d22ec214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aaf6f38018c42a53006e8f3b5b6d50') in 0.020652 seconds 
+  Time since last request: 0.000170 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_roughness.png
+  artifactKey: Guid(09188c0f24eb3a675bdcd584915a9ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_roughness.png using Guid(09188c0f24eb3a675bdcd584915a9ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c599ab6903a29135ef7c8d5248c4ac4') in 0.024672 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.361849 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/rubish.prefab
-  artifactKey: Guid(5622cf7064c07d003845fff694ea2288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/rubish.prefab using Guid(5622cf7064c07d003845fff694ea2288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2488a70b399061f562646e95e8a53fe5') in 0.018219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/storage-shelf.prefab
-  artifactKey: Guid(5f831c03562b19aa19aa2c09f0b1247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/storage-shelf.prefab using Guid(5f831c03562b19aa19aa2c09f0b1247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fecec8f875fd10e8271888ff4a93e8d') in 0.025562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank1.prefab
-  artifactKey: Guid(f2c3fc26506f91718be7aa41d0d23032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank1.prefab using Guid(f2c3fc26506f91718be7aa41d0d23032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7d591d738e9639d104df1feb20c384') in 0.025013 seconds 
+  Time since last request: 0.000184 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_metallic.png
+  artifactKey: Guid(11e5a6cc080d069c29276d6105f9268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_metallic.png using Guid(11e5a6cc080d069c29276d6105f9268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce2464f8c83362782082087abad392') in 0.024275 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000187 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/trash.prefab
-  artifactKey: Guid(2ae6e7d27c3e768a6807cf3a3c741c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/trash.prefab using Guid(2ae6e7d27c3e768a6807cf3a3c741c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e329cfa4c9a7624025e34aa78a274c7') in 0.032563 seconds 
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-color.png
+  artifactKey: Guid(1da3e386cc66ecf14bef519f0a915a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-color.png using Guid(1da3e386cc66ecf14bef519f0a915a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ad90866d2c7024a1f20ee8825fdb30') in 0.013869 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/trash-can.prefab
-  artifactKey: Guid(64531d170d5073146a0c38d491b943fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/trash-can.prefab using Guid(64531d170d5073146a0c38d491b943fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcf8c2f4e1c58996e062f342f66ce6d') in 0.021005 seconds 
+  Time since last request: 0.000168 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/energy-box-color.png
+  artifactKey: Guid(5e96950246b35260bbf2a691983f399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/energy-box-color.png using Guid(5e96950246b35260bbf2a691983f399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6eee3fe22a4e4de33505ba72b77b28f') in 0.016590 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank4.prefab
-  artifactKey: Guid(22be79e78d78dd1b3926ec6af416442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank4.prefab using Guid(22be79e78d78dd1b3926ec6af416442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d216a5001254afa0764ccf590e547e') in 0.021430 seconds 
+  Time since last request: 1205.025629 seconds.
+  path: Assets/Scripts/Character/PlayerControl.cs
+  artifactKey: Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/PlayerControl.cs using Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f7b16d859875fd4a364d832ec3a102') in 0.008277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/table1.prefab
-  artifactKey: Guid(3e50a48ebb8e1852482878cc50ada100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/table1.prefab using Guid(3e50a48ebb8e1852482878cc50ada100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa34a0c4cefa033d470f2f7156c99272') in 0.024929 seconds 
+  Time since last request: 25.956386 seconds.
+  path: Assets/Scenes/PlayerTest.unity
+  artifactKey: Guid(def5c56644daab0459013453bb913c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlayerTest.unity using Guid(def5c56644daab0459013453bb913c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ae1d02dae3bc753afb059edd76b5fc') in 0.008304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/trash-yellow.prefab
-  artifactKey: Guid(f360e7bcbe2d9b907a97ca9426b5c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/trash-yellow.prefab using Guid(f360e7bcbe2d9b907a97ca9426b5c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62028409b11ba55315ba20efee995210') in 0.033559 seconds 
+  Time since last request: 139.558755 seconds.
+  path: Assets/Scripts/KimGyorim
+  artifactKey: Guid(4a95595de41f5bd41bb8d7700b22d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KimGyorim using Guid(4a95595de41f5bd41bb8d7700b22d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dae77d5e4efed003e791da1251e7b0d') in 0.012108 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank2.prefab
-  artifactKey: Guid(c681d7a1445e0a4c5b6d8f1f47259085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank2.prefab using Guid(c681d7a1445e0a4c5b6d8f1f47259085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c0a518e10571555c62c5bd7ba6438d') in 0.020116 seconds 
+  Time since last request: 3.061820 seconds.
+  path: Assets/Scripts/KimGyorim/Gizmos
+  artifactKey: Guid(52569f857bb034644a94a3649bd19225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KimGyorim/Gizmos using Guid(52569f857bb034644a94a3649bd19225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cbf5a5c962fd80aa9c3ed550b3912a') in 0.009073 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank3.prefab
-  artifactKey: Guid(8cb7909158efee2b0811c02bef9284ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/tank3.prefab using Guid(8cb7909158efee2b0811c02bef9284ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c963af67b5a99720b4b40a4ad89eaf04') in 0.021088 seconds 
+  Time since last request: 2.476890 seconds.
+  path: Assets/Scripts/KimGyorim/Gizmos/PlayerGizmos.cs
+  artifactKey: Guid(99081056161586a4393ae8b6accc4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KimGyorim/Gizmos/PlayerGizmos.cs using Guid(99081056161586a4393ae8b6accc4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa68287633dff12fba6968c4fe2a0fff') in 0.016391 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/seats.prefab
-  artifactKey: Guid(12837e6548f1b2c0092411fbbc5767e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Prefabs/Props/seats.prefab using Guid(12837e6548f1b2c0092411fbbc5767e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e747d65732820e8730fff598a4a41d') in 0.018134 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 3.916300 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.063600 ms MarkObjects: 3.131000 ms  DeleteObjects: 0.459300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 3.276500 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.056600 ms MarkObjects: 2.488600 ms  DeleteObjects: 0.409100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2139.
+Total: 2.975100 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.361000 ms  DeleteObjects: 0.368200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
