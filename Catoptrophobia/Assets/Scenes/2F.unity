@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 22317846}
   - component: {fileID: 22317845}
   m_Layer: 0
-  m_Name: colliderPlane_B4
+  m_Name: colliderPlane_B7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -906,7 +906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22317843}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5000005, y: 1, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 1575265438}
@@ -15779,7 +15779,7 @@ GameObject:
   - component: {fileID: 500382407}
   - component: {fileID: 500382406}
   m_Layer: 0
-  m_Name: Camera_B4
+  m_Name: Camera_B7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25552,7 +25552,7 @@ GameObject:
   - component: {fileID: 776804332}
   - component: {fileID: 776804333}
   m_Layer: 0
-  m_Name: 1Fpotalcontroller_4
+  m_Name: 2Fpotalcontroller_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28582,7 +28582,7 @@ GameObject:
   - component: {fileID: 898570285}
   - component: {fileID: 898570284}
   m_Layer: 0
-  m_Name: colliderPlane_A4
+  m_Name: colliderPlane_A7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36523,7 +36523,7 @@ GameObject:
   - component: {fileID: 1131893223}
   - component: {fileID: 1131893222}
   m_Layer: 0
-  m_Name: potal_B4
+  m_Name: potal_B7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45414,7 +45414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1374607137
 Light:
   m_ObjectHideFlags: 0
@@ -51300,7 +51300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575265438}
   m_Layer: 0
-  m_Name: 1Fpotal_B4
+  m_Name: 2Fpotal_B7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51314,7 +51314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575265437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26, y: 18, z: 21.33}
+  m_LocalPosition: {x: -26, y: 18, z: 21.82}
   m_LocalScale: {x: 0.5, y: 1, z: 1}
   m_Children:
   - {fileID: 1131893221}
@@ -57999,7 +57999,7 @@ GameObject:
   - component: {fileID: 1774408399}
   - component: {fileID: 1774408398}
   m_Layer: 0
-  m_Name: Camera_A4
+  m_Name: Camera_A7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64120,7 +64120,7 @@ GameObject:
   - component: {fileID: 1939157183}
   - component: {fileID: 1939157182}
   m_Layer: 0
-  m_Name: potal_A4
+  m_Name: potal_A7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64213,7 +64213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942619032}
   m_Layer: 0
-  m_Name: 1Fpotal_A4
+  m_Name: 2Fpotal_A7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

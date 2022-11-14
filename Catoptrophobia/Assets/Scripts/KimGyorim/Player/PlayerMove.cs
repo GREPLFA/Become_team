@@ -25,7 +25,11 @@ public class PlayerMove : MonoBehaviour
     bool isChar = true;
     void Start()
     {
+<<<<<<< HEAD
         speed = 4.0f;
+=======
+        speed = 10.0f;
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
         jumpPower = 6.0f;
         gravity = 20.0f;
 
@@ -34,8 +38,8 @@ public class PlayerMove : MonoBehaviour
 
         mouseX = 0.0f;
         mouseY = 0.0f;
-        horizontal_MouseSpeed = 5.0f;
-        vertical_MouseSpeed = 6.0f;
+        horizontal_MouseSpeed = 3.0f;
+        vertical_MouseSpeed = 3.0f;
 
         controller = GetComponent<CharacterController>();
         rigidbody = GetComponent<Rigidbody>();
@@ -57,7 +61,11 @@ public class PlayerMove : MonoBehaviour
 
     void characterMove()
     {
+<<<<<<< HEAD
         if (isChar)
+=======
+        if(isChar)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
         {
             if (controller.isGrounded)
             {
