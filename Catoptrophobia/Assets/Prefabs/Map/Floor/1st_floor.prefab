@@ -2206,6 +2206,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1 &3705408508661993758
 GameObject:
   m_ObjectHideFlags: 0
@@ -5204,6 +5205,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1 &3705408509128553784
 GameObject:
   m_ObjectHideFlags: 0
@@ -10357,6 +10359,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1 &3705408510085755648
 GameObject:
   m_ObjectHideFlags: 0
@@ -11678,6 +11681,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1 &3705408510254305514
 GameObject:
   m_ObjectHideFlags: 0
@@ -18787,6 +18791,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408508387148340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18910,7 +18915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.85
+      value: -48.35
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18972,6 +18977,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408508439925587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19563,7 +19569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.85
+      value: -48.35
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19625,6 +19631,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408508774287877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21067,6 +21074,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408509112681984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22137,7 +22145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.85
+      value: -48.35
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22195,6 +22203,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408509297134799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22846,7 +22855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.85
+      value: -48.35
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24115,6 +24124,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408509690414049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24248,6 +24258,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408509701980614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25274,11 +25285,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6305549
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7352939
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25336,6 +25347,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408509900482641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25781,6 +25793,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408510002537794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26226,6 +26239,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408510093998952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26437,6 +26451,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408510121851451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26712,11 +26727,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6305549
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7352939
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 4342395503250314, guid: 6bd6752157d086646a4dd11ecbe3905c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26778,6 +26793,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &3705408510155220467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28003,6 +28019,7 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+  doorCnt: 0
 --- !u!1001 &5937042762949080476
 PrefabInstance:
   m_ObjectHideFlags: 0

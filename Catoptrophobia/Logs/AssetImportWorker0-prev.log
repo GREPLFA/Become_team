@@ -15,11 +15,19 @@ F:/bTeamGit/Become_team/Catoptrophobia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
+57002
+Successfully changed project path to: C:/Users/C/gitUnity/Become_team/Catoptrophobia
+C:/Users/C/gitUnity/Become_team/Catoptrophobia
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.70 ms, found 2 plugins.
+=======
 14891
 Successfully changed project path to: F:/bTeamGit/Become_team/Catoptrophobia
 F:/bTeamGit/Become_team/Catoptrophobia
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 67.86 ms, found 2 plugins.
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003519 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Domain Reload Profiling:
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (82ms)
+=======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +71,21 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2379ms)
 		BeginReloadAssembly (1565ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
+		EndReloadAssembly (469ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (182ms)
+=======
 		EndReloadAssembly (665ms)
 			LoadAssemblies (1557ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,33 +93,62 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
 			SetupLoadedEditorAssemblies (288ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+=======
 				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (133ms)
 				ProcessInitializeOnLoadAttributes (73ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.005140 seconds.
+=======
 Registered in 0.075162 seconds.
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (155ms)
+=======
 - Completed reload, in  1.611 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1612ms)
 		BeginReloadAssembly (211ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (300ms)
+=======
 			CreateAndSetChildDomain (18ms)
 		EndReloadAssembly (1315ms)
 			LoadAssemblies (384ms)
@@ -95,20 +157,39 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (42ms)
 			SetupLoadedEditorAssemblies (420ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
+=======
 				BeforeProcessingInitializeOnLoad (92ms)
 				ProcessInitializeOnLoadAttributes (227ms)
 				ProcessInitializeOnLoadMethodAttributes (70ms)
 				AfterProcessingInitializeOnLoad (22ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1671 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 3.175100 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.049400 ms MarkObjects: 2.565900 ms  DeleteObjects: 0.334100 ms)
+=======
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -118,6 +199,7 @@ System memory in use after: 86.8 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2120.
 Total: 2.673500 ms (FindLiveObjects: 0.128700 ms CreateObjectMapping: 0.056000 ms MarkObjects: 2.222300 ms  DeleteObjects: 0.265800 ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,6 +213,372 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+  path: Assets/Scenes/CharacterTest.unity
+  artifactKey: Guid(2b1ec786d8301bd43b5a78c38d65b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CharacterTest.unity using Guid(2b1ec786d8301bd43b5a78c38d65b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ca1f5adb9469f7c5536b09a5d50119') in 0.008395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.682417 seconds.
+  path: Assets/Scripts/Character/PlayerControl.cs
+  artifactKey: Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/PlayerControl.cs using Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a29750e6764f39d12fff030d9aaa4a') in 0.034882 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 81.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 3.205200 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.048400 ms MarkObjects: 2.629900 ms  DeleteObjects: 0.316500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 2.767400 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.042400 ms MarkObjects: 2.195500 ms  DeleteObjects: 0.328000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 689.705892 seconds.
+  path: Assets/Scripts/Character/CMOVE.cs
+  artifactKey: Guid(4ca73fed6f76ffe418c172ff103470b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/CMOVE.cs using Guid(4ca73fed6f76ffe418c172ff103470b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca13fd4150bb2d5278007bd5a998623') in 0.010639 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 2.850100 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.226500 ms  DeleteObjects: 0.366700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4095.669443 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-color.png
+  artifactKey: Guid(5307f47d83c93ee19978cf07a95eda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-color.png using Guid(5307f47d83c93ee19978cf07a95eda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af02ff95115c1dc1d1455b3feca0e7e9') in 0.111237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-color.png
+  artifactKey: Guid(19801fbf8483eaa8fb20bae87a2ed24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-color.png using Guid(19801fbf8483eaa8fb20bae87a2ed24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998c4b6f95edf96359a26d1fc3d437a') in 0.022986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood1.png
+  artifactKey: Guid(8efc3b7d29bcc0cf5923d2c2dcf39c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood1.png using Guid(8efc3b7d29bcc0cf5923d2c2dcf39c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6519db220a686ee51027e4c270876dd') in 0.014755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_normal.png
+  artifactKey: Guid(b94c6662704fd49ee9d4eac4403ca90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_normal.png using Guid(b94c6662704fd49ee9d4eac4403ca90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd879d71dd9d13ed2df4b2568da695da') in 0.092572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-normal.png
+  artifactKey: Guid(77d44dce72ea040858402f6d22f67cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-normal.png using Guid(77d44dce72ea040858402f6d22f67cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796a937134f5c88492832b7420fd6939') in 0.014182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-color.png
+  artifactKey: Guid(856005de69df7a5e1b8cf688470826a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-color.png using Guid(856005de69df7a5e1b8cf688470826a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6097011f259c215a3c497f4cf6d36d44') in 0.017714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-normal.png
+  artifactKey: Guid(6a92d67009f2cfdde9e502b2eea1f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/board-normal.png using Guid(6a92d67009f2cfdde9e502b2eea1f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9230a1052118cf4035f9f41600520') in 0.018347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-normal.png
+  artifactKey: Guid(27ad5b2be2a919c7e87f0be0a8e95b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-normal.png using Guid(27ad5b2be2a919c7e87f0be0a8e95b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef8488ef817e29bf1aed3780d093ca') in 0.012552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/cracks.png
+  artifactKey: Guid(34bd89c65585bc832b95a3b63a8d6b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/cracks.png using Guid(34bd89c65585bc832b95a3b63a8d6b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905ae5f76eb397bd74d79eaa7956cd80') in 0.017309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-color.png
+  artifactKey: Guid(e7592598732c27aaabe4edfcc5a84379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-color.png using Guid(e7592598732c27aaabe4edfcc5a84379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be835f8ae84814c30f93489031476d2') in 0.014245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood4.png
+  artifactKey: Guid(c26d7e43ad41e6fe9af69b229d777403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood4.png using Guid(c26d7e43ad41e6fe9af69b229d777403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51871a55d6a34aacb14a02a6f44b8fd3') in 0.016773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-emission.png
+  artifactKey: Guid(1a400da86bc0f86b3892f1b86d43a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/lamp-emission.png using Guid(1a400da86bc0f86b3892f1b86d43a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9b9a995e0fcdd15e605d773031256d') in 0.015450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_color.png
+  artifactKey: Guid(1e1dee80d8c41acdbb16fd98d0a2418f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_color.png using Guid(1e1dee80d8c41acdbb16fd98d0a2418f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee95d696213e7038280b9d52452674d5') in 0.013842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood2.png
+  artifactKey: Guid(1e2196381cc9ac6308d4a7c09ef33f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood2.png using Guid(1e2196381cc9ac6308d4a7c09ef33f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bc7dd67e0943403ccbb59ab8f30192') in 0.012257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood3.png
+  artifactKey: Guid(815d72d0cb66f2a958def251e92c8747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/blood3.png using Guid(815d72d0cb66f2a958def251e92c8747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708283023e9b7754ddce1af0fef47561') in 0.013652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_normal.png
+  artifactKey: Guid(73d8b068f5c78105e9f1ab2260d17ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bottles_normal.png using Guid(73d8b068f5c78105e9f1ab2260d17ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f29bb46dceb8f5725dcf7e278b2f4f') in 0.013750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_color.png
+  artifactKey: Guid(09231e7e488bbc85ca2bafa0d6d91f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_color.png using Guid(09231e7e488bbc85ca2bafa0d6d91f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02299a8807dd0ea7398daad6e6381b2') in 0.025325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-normal.png
+  artifactKey: Guid(244ffc59f98bfc790b52b930c619c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/bed-normal.png using Guid(244ffc59f98bfc790b52b930c619c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557858deda2f4f5a443827ee3763e23d') in 0.018124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-normal.png
+  artifactKey: Guid(331cbe7cefdcc7c34ba801aeb8573f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/fan-normal.png using Guid(331cbe7cefdcc7c34ba801aeb8573f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57492b5fec6d46b478fb80c92b91153c') in 0.017396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_roughness.png
+  artifactKey: Guid(09188c0f24eb3a675bdcd584915a9ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_roughness.png using Guid(09188c0f24eb3a675bdcd584915a9ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c599ab6903a29135ef7c8d5248c4ac4') in 0.024672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_metallic.png
+  artifactKey: Guid(11e5a6cc080d069c29276d6105f9268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/corridors_metallic.png using Guid(11e5a6cc080d069c29276d6105f9268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce2464f8c83362782082087abad392') in 0.024275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-color.png
+  artifactKey: Guid(1da3e386cc66ecf14bef519f0a915a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/garbage-bag-color.png using Guid(1da3e386cc66ecf14bef519f0a915a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ad90866d2c7024a1f20ee8825fdb30') in 0.013869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/energy-box-color.png
+  artifactKey: Guid(5e96950246b35260bbf2a691983f399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Assets/MapAssets/ModularCreepyAbandonedHospital/Textures/energy-box-color.png using Guid(5e96950246b35260bbf2a691983f399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6eee3fe22a4e4de33505ba72b77b28f') in 0.016590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1205.025629 seconds.
+  path: Assets/Scripts/Character/PlayerControl.cs
+  artifactKey: Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/PlayerControl.cs using Guid(f2e873d92cb1a424f9a80822f34dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f7b16d859875fd4a364d832ec3a102') in 0.008277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.956386 seconds.
+  path: Assets/Scenes/PlayerTest.unity
+  artifactKey: Guid(def5c56644daab0459013453bb913c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlayerTest.unity using Guid(def5c56644daab0459013453bb913c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ae1d02dae3bc753afb059edd76b5fc') in 0.008304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.558755 seconds.
+  path: Assets/Scripts/KimGyorim
+  artifactKey: Guid(4a95595de41f5bd41bb8d7700b22d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KimGyorim using Guid(4a95595de41f5bd41bb8d7700b22d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dae77d5e4efed003e791da1251e7b0d') in 0.012108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.061820 seconds.
+  path: Assets/Scripts/KimGyorim/Gizmos
+  artifactKey: Guid(52569f857bb034644a94a3649bd19225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KimGyorim/Gizmos using Guid(52569f857bb034644a94a3649bd19225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cbf5a5c962fd80aa9c3ed550b3912a') in 0.009073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.476890 seconds.
+  path: Assets/Scripts/KimGyorim/Gizmos/PlayerGizmos.cs
+  artifactKey: Guid(99081056161586a4393ae8b6accc4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KimGyorim/Gizmos/PlayerGizmos.cs using Guid(99081056161586a4393ae8b6accc4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa68287633dff12fba6968c4fe2a0fff') in 0.016391 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (104ms)
+=======
   path: Assets/Scripts/Character/RayControl.cs
   artifactKey: Guid(a733dcdc8c8d3694c95983568880155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Character/RayControl.cs using Guid(a733dcdc8c8d3694c95983568880155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756f634e03c739992c90587ef304876d') in 0.089045 seconds 
@@ -3561,11 +4009,29 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1120ms)
 		BeginReloadAssembly (189ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (27ms)
+<<<<<<< HEAD
+		EndReloadAssembly (773ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (10ms)
+=======
 		EndReloadAssembly (842ms)
 			LoadAssemblies (170ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -3581,10 +4047,21 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (188ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (26ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 3.916300 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.063600 ms MarkObjects: 3.131000 ms  DeleteObjects: 0.459300 ms)
+=======
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1649 Unused Serialized files (Serialized files now loaded: 0)
@@ -3593,6 +4070,7 @@ System memory in use after: 87.9 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2312.
 Total: 2.799100 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.050600 ms MarkObjects: 2.309100 ms  DeleteObjects: 0.305600 ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -3607,6 +4085,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.005981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 3.276500 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.056600 ms MarkObjects: 2.488600 ms  DeleteObjects: 0.409100 ms)
+=======
 Registered in 0.004206 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -3649,6 +4171,7 @@ System memory in use after: 87.9 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2315.
 Total: 2.713600 ms (FindLiveObjects: 0.136600 ms CreateObjectMapping: 0.050300 ms MarkObjects: 2.231200 ms  DeleteObjects: 0.294600 ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -3663,6 +4186,18 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.004686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (111ms)
+=======
 Registered in 0.003890 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -3673,11 +4208,29 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1055ms)
 		BeginReloadAssembly (182ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
+<<<<<<< HEAD
+		EndReloadAssembly (753ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (11ms)
+=======
 		EndReloadAssembly (788ms)
 			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -3693,10 +4246,21 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (181ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (25ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2139.
+Total: 2.975100 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.361000 ms  DeleteObjects: 0.368200 ms)
+=======
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1649 Unused Serialized files (Serialized files now loaded: 0)
@@ -4993,6 +5557,7 @@ System memory in use after: 88.0 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2387.
 Total: 2.778600 ms (FindLiveObjects: 0.136800 ms CreateObjectMapping: 0.052900 ms MarkObjects: 2.255200 ms  DeleteObjects: 0.333000 ms)
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -5004,3 +5569,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
