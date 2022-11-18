@@ -25,11 +25,11 @@ public class PlayerMove : MonoBehaviour
     bool isChar = true;
     void Start()
     {
-<<<<<<< HEAD
+//<<<<<<< HEAD
         speed = 4.0f;
-=======
+//=======
         speed = 10.0f;
->>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
+//>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
         jumpPower = 6.0f;
         gravity = 20.0f;
 
@@ -61,11 +61,11 @@ public class PlayerMove : MonoBehaviour
 
     void characterMove()
     {
-<<<<<<< HEAD
+//<<<<<<< HEAD
         if (isChar)
-=======
+//=======
         if(isChar)
->>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
+//>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
         {
             if (controller.isGrounded)
             {
