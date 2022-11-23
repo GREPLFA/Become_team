@@ -23,6 +23,12 @@ public class PlayerMove : MonoBehaviour
     bool isJump = true;
 
     bool isChar = true;
+
+    bool isMoving = false;
+
+    public AudioClip Footstep;
+    private AudioSource audiosource;
+
     void Start()
     {
 //<<<<<<< HEAD
@@ -47,16 +53,20 @@ public class PlayerMove : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         capsule = GetComponent<CapsuleCollider>();
         capsule.enabled = false;
+
+        audiosource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
     {
         playerMove();
+
     }
     void playerMove()
     {
         characterMove();
         cameraMove();
+
     }
 
     void characterMove()
@@ -88,7 +98,7 @@ public class PlayerMove : MonoBehaviour
             MoveDir.y -= gravity * Time.deltaTime;
 
             controller.Move(MoveDir * Time.deltaTime);
-        }
+            }
         else
         {
             // 위, 아래 움직임 셋팅. 
@@ -109,7 +119,15 @@ public class PlayerMove : MonoBehaviour
             // 캐릭터 움직임.
             this.transform.position += MoveDir * Time.deltaTime;
         }
+        /*
+        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        {
+            audiosource.clip = Footstep;
+            audiosource.Play();
+        }
+        */
     }
+
 
     void cameraMove()
     {

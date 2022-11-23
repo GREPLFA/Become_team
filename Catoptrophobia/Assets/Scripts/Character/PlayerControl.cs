@@ -21,8 +21,10 @@ public class PlayerControl : MonoBehaviour
     private Transform cameraTransform;
 
     //rigidbody
-    private Rigidbody rigid; 
+    private Rigidbody rigid;
 
+    AudioSource audiosource;
+    bool isMoving = false;
 
     public void Start()
     {
@@ -33,6 +35,7 @@ public class PlayerControl : MonoBehaviour
         mouseX=0;
         mouseY=0;
 
+        audiosource = GetComponent<AudioSource>();
     }
     /*
      * 이벤트
@@ -63,6 +66,20 @@ public class PlayerControl : MonoBehaviour
     {
         Vector3 movec = cameraTransform.rotation * direction;
         moveDirection = new Vector3(movec.x, 0, movec.z);
+
+        if (moveDirection.x != 0)
+            isMoving = true;
+        else
+            isMoving = false;
+
+        if (isMoving)
+        {
+            if (!audiosource.isPlaying)
+                audiosource.Play();
+
+        }
+        else
+            audiosource.Stop();
         //쿼터니온 회전값을 방향정보에 곱하여 moveDirection의 x z에 적용>카메라 전방을 기준으로 움직이게 함 
     }
 

@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class SceneChanger : MonoBehaviour
 {
+
     public void ClickStart()
     {
         SceneManager.LoadScene("MainScene");

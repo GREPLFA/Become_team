@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CamControl : MonoBehaviour
 {
-    private float rotSpeedx = 5;
-    private float rotSpeedy = 5;
+    private float rotSpeedx = 4;
+    private float rotSpeedy = 4;
     private float Minx = -60;
     private float Maxx = 60;
     private float eulerAnglex;

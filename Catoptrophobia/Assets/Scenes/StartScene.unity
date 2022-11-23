@@ -893,6 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071576564}
   - component: {fileID: 2071576563}
+  - component: {fileID: 2071576565}
   m_Layer: 0
   m_Name: ButtonObject
   m_TagString: Untagged
@@ -926,6 +927,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2071576565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071576562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4211048759fe844da14a973ab509a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fade: {fileID: 0}
 --- !u!1 &2076192134
 GameObject:
   m_ObjectHideFlags: 0
