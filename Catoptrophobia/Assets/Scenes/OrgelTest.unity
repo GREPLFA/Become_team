@@ -597,6 +597,7 @@ MonoBehaviour:
   hasKey: 0
   mirrorOn: 0
   handMirror: {fileID: 459531099}
+  timer: 0
 --- !u!114 &285401050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,7 +610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d02c40ebce1f249a987f26cb7c3f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 718884898}
+  player: {fileID: 718884898}
+  playerCamera: {fileID: 518237343}
   handMirror: {fileID: 459531100}
   otherHandMirror: {fileID: 666037368}
 --- !u!20 &285401051
@@ -1572,8 +1574,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be35c6bf8cd7f144a12bc397cbebb3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
-  landSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  speed: 0
+  jumpPower: 0
+  playerCamera: {fileID: 518237342}
+  mouseX: 0
+  mouseY: 0
+  timer: 0
 --- !u!114 &718884901
 MonoBehaviour:
   m_ObjectHideFlags: 0

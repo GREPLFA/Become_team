@@ -24,7 +24,7 @@ public class DollEventTest : MonoBehaviour
         if (TimeCnt > 10)
         {
             Transform prefab_doll = Instantiate(Doll, DollSpawn.transform.position, DollSpawn.transform.rotation);
-            Destroy(this, 1f);
+            Destroy(this, 15f);
             TimeCnt = 0;
         }
 

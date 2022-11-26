@@ -778,7 +778,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1282084316}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 180}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &380358853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -792,7 +792,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1915756450}
+  playerCamera: {fileID: 0}
   reciever: {fileID: 1388939593}
+  playerIsOverlapping: 0
 --- !u!65 &380358854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1109,7 +1111,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489448084}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1119,7 +1121,7 @@ Transform:
   - {fileID: 324902046}
   m_Father: {fileID: 2046952535}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &596467485
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,7 +1882,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1915756450}
+  playerCamera: {fileID: 0}
   reciever: {fileID: 380358852}
+  playerIsOverlapping: 0
 --- !u!1 &1418744098
 GameObject:
   m_ObjectHideFlags: 0

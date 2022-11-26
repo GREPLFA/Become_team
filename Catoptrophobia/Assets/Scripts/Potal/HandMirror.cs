@@ -6,17 +6,10 @@ public class HandMirror : MonoBehaviour
 {
     RaycastHit hit;
     float maxDistance = 4f;
-    public bool isHit = false;
-    public bool hasKey = false;
     public bool mirrorOn = false;
 
     public GameObject handMirror;
     public float timer = 0f;
-    KeyManager keyManager;
-    void Start()
-    {
-        keyManager = GameObject.Find("KeyManager").GetComponent<KeyManager>();
-    }
 
     void Update()
     {
@@ -31,7 +24,14 @@ public class HandMirror : MonoBehaviour
             if (hit.transform.gameObject.CompareTag("Orgel"))
             {
                 hit.collider.gameObject.GetComponent<Outline>().enabled = true;
-                if (isHit)
+            }
+            if (hit.transform.gameObject.CompareTag("Button"))
+            {
+                hit.collider.gameObject.GetComponent<Outline>().enabled = true;
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (hit.transform.gameObject.CompareTag("Orgel"))
                 {
                     GameObject[] orgel = GameObject.FindGameObjectsWithTag("Orgel");
                     for (int i = 0; i < orgel.Length; i++)
@@ -39,12 +39,16 @@ public class HandMirror : MonoBehaviour
                         orgel[i].transform.gameObject.SetActive(false);
                     }
                 }
+                if (hit.collider.gameObject.CompareTag("Button"))
+                {
+                    hit.transform.gameObject.GetComponent<Button>().lockingDoor.GetComponent<Door>().enabled = true;
+                }
             }
         }
     }
     void MirrorOnOff()
     {
-        if(!mirrorOn)
+        if (!mirrorOn)
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
@@ -52,7 +56,7 @@ public class HandMirror : MonoBehaviour
                 mirrorOn = true;
             }
         }
-        else if(mirrorOn)
+        else if (mirrorOn)
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {

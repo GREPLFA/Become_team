@@ -26,8 +26,16 @@ public class Door : MonoBehaviour
     {
         if (open)
         {
-            Quaternion targetRotation = Quaternion.Euler(0, doorOpenAngle, 0);
-            transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smoot * Time.deltaTime);      
+            if(transform.gameObject.CompareTag("2F_Barrier"))
+            {
+                Quaternion targetRotation = Quaternion.Euler(0, 0, doorOpenAngle);
+                transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smoot * Time.deltaTime);
+            }
+            else
+            {
+                Quaternion targetRotation = Quaternion.Euler(0, doorOpenAngle, 0);
+                transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smoot * Time.deltaTime);
+            }    
         }
         else
         {

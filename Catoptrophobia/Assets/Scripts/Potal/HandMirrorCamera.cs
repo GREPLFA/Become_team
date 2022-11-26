@@ -11,8 +11,8 @@ public class HandMirrorCamera : MonoBehaviour
 
     void Update()
     {
-        otherHandMirror.position = new Vector3(-handMirror.position.x, handMirror.position.y + 15, handMirror.position.z);
+        otherHandMirror.position = new Vector3(handMirror.position.x, handMirror.position.y, -handMirror.position.z);
 
-        transform.localEulerAngles = new Vector3(-playerCamera.localEulerAngles.x, player.localEulerAngles.y + 180, playerCamera.localEulerAngles.z);
+        transform.localEulerAngles = new Vector3(-player.localEulerAngles.x, player.localEulerAngles.y, playerCamera.localEulerAngles.z);
     }
 }

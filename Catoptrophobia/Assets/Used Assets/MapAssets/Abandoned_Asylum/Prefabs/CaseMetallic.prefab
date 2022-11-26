@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6143295661290426376}
   m_Layer: 0
   m_Name: Case_Door_R
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 4759543921700086427}
   m_Layer: 0
   m_Name: Case_Door_L
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

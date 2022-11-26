@@ -15,27 +15,19 @@ public class PlayerMove : MonoBehaviour
     private CharacterController controller;
     private CapsuleCollider capsule;
     private Rigidbody rigidbody;
-    float mouseX;
-    float mouseY;
+    public GameObject playerCamera;
+    public float mouseX;
+    public float mouseY;
+    public float timer;
     float horizontal_MouseSpeed;
     float vertical_MouseSpeed;
 
     bool isJump = true;
 
     bool isChar = true;
-
-    bool isMoving = false;
-
-    public AudioClip Footstep;
-    private AudioSource audiosource;
-
     void Start()
     {
-//<<<<<<< HEAD
-        speed = 4.0f;
-//=======
-        speed = 10.0f;
-//>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
+        speed =10.0f;
         jumpPower = 6.0f;
         gravity = 20.0f;
 
@@ -54,28 +46,22 @@ public class PlayerMove : MonoBehaviour
         capsule = GetComponent<CapsuleCollider>();
         capsule.enabled = false;
 
-        audiosource = GetComponent<AudioSource>();
+        timer = 0f;
     }
 
     void FixedUpdate()
     {
         playerMove();
-
     }
     void playerMove()
     {
         characterMove();
         cameraMove();
-
     }
 
     void characterMove()
     {
-//<<<<<<< HEAD
-        if (isChar)
-//=======
         if(isChar)
-//>>>>>>> 6fe30f59511278a633fd5e9cbecc8c53847d28c3
         {
             if (controller.isGrounded)
             {
@@ -98,9 +84,10 @@ public class PlayerMove : MonoBehaviour
             MoveDir.y -= gravity * Time.deltaTime;
 
             controller.Move(MoveDir * Time.deltaTime);
-            }
+        }
         else
         {
+            timer += Time.deltaTime;
             // 위, 아래 움직임 셋팅. 
             MoveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
@@ -110,24 +97,16 @@ public class PlayerMove : MonoBehaviour
             // 스피드 증가.
             MoveDir *= speed;
 
-            // 캐릭터 점프
-            if (Input.GetButton("Jump") && isJump)
-            {
-                rigidbody.AddForce(Vector3.up * jumpPower * Time.deltaTime, ForceMode.Impulse);
-            }
-
             // 캐릭터 움직임.
             this.transform.position += MoveDir * Time.deltaTime;
+            if(timer > 0.2f)
+            {
+                isChar = true;
+                controller.enabled = true;
+                capsule.enabled = false;
+            }
         }
-        /*
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
-        {
-            audiosource.clip = Footstep;
-            audiosource.Play();
-        }
-        */
     }
-
 
     void cameraMove()
     {
@@ -143,22 +122,12 @@ public class PlayerMove : MonoBehaviour
         isJump = true;
         if (other.gameObject.CompareTag("PotalColider"))
         {
-            Debug.Log("1");
             controller.enabled = false;
             capsule.enabled = true;
             isChar = false;
         }
     }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("PotalColider"))
-        {
-            controller.enabled = true;
-            capsule.enabled = false;
-            isChar = true;
-        }
-    }
-
+    
     /*
     private void PlayJumpSound()
     {

@@ -13,6 +13,9 @@ TagManager:
   - KeyHole
   - Key
   - PotalColider
+  - Undefined
+  - Button
+  - 2F_Barrier
   layers:
   - Default
   - TransparentFX
